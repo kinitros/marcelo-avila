@@ -3,7 +3,7 @@ export const MethodFeatures = () => {
     <div className="relative box-border caret-transparent gap-x-5 flex flex-col flex-wrap min-h-[auto] gap-y-5 w-full z-[1] md:flex-nowrap md:w-[52%]">
       <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 text-center">
         <img
-          src="https://empregga.com.br/wp-content/uploads/2025/11/Ativo-1-1.webp"
+          src="/images/logo.png"
           alt=""
           className="aspect-[auto_168_/_89] box-border caret-transparent inline-block max-w-full w-28"
         />

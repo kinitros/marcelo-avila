@@ -1,45 +1,91 @@
+import { useState } from "react";
+
 export const NavbarActions = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <div className="relative items-center box-border caret-transparent gap-x-5 flex flex-wrap justify-end min-h-[auto] gap-y-5 w-fit md:flex-nowrap md:justify-normal">
-      <div className="relative box-border caret-transparent gap-x-5 hidden max-w-full min-h-0 gap-y-5 md:block md:min-h-[auto]">
+    <div className="relative items-center box-border caret-transparent gap-x-2.5 flex flex-wrap justify-end min-h-[auto] gap-y-2 w-fit md:flex-nowrap md:justify-normal">
+      <div className="relative hidden max-w-full md:block">
         <a
-          href="tel:+552138023838"
-          className="text-blue-700 text-[15px] font-medium bg-transparent box-border caret-transparent inline-block fill-blue-700 leading-[15px] text-center px-6 py-3 rounded-[100px] font-aalto_sans_pro"
+          href="#propriedade-intelectual"
+          className="group inline-flex items-center gap-3 bg-gradient-to-r from-[#1a6b2a] to-[#228B3B] text-white text-[11px] font-bold uppercase tracking-wider pl-2.5 pr-5 py-2 rounded-xl font-aalto_sans_pro shadow-[0_2px_8px_rgba(26,107,42,0.3)] hover:shadow-[0_4px_16px_rgba(26,107,42,0.4)] hover:scale-[1.02] transition-all duration-200"
         >
-          <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 justify-center gap-y-[5px]">
-            <span className="box-border caret-transparent block fill-blue-700 min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-              (21) 3802-3838
-            </span>
-          </span>
+          <img src="/images/advogado-marcas.jpg" alt="Brasil" className="w-9 h-7 flex-shrink-0 object-cover rounded-lg shadow-sm" />
+          <span className="leading-tight text-left">REGISTRE SUA<br/>MARCA ONLINE</span>
         </a>
       </div>
-      <div className="relative box-border caret-transparent gap-x-5 hidden max-w-full min-h-0 gap-y-5 md:block md:min-h-[auto]">
+      <div className="relative hidden max-w-full md:block">
         <a
-          href="#contato"
-          className="text-white text-[15px] font-medium bg-blue-700 box-border caret-transparent inline-block fill-white leading-[15px] text-center px-6 py-3 rounded-[100px] font-aalto_sans_pro"
+          href="#direito-saude"
+          className="group inline-flex items-center gap-3 bg-gradient-to-r from-[#1a3a6b] to-[#2555a0] text-white text-[11px] font-bold uppercase tracking-wider pl-2.5 pr-5 py-2 rounded-xl font-aalto_sans_pro shadow-[0_2px_8px_rgba(26,58,107,0.3)] hover:shadow-[0_4px_16px_rgba(26,58,107,0.4)] hover:scale-[1.02] transition-all duration-200"
         >
-          <span className="box-border caret-transparent gap-x-[5px] flex fill-white justify-center gap-y-[5px]">
-            <span className="box-border caret-transparent block fill-white min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-              Fale Conosco
-            </span>
+          <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 bg-white/90 rounded-lg shadow-sm">
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none">
+              <rect x="9.5" y="4" width="5" height="16" rx="1" fill="#dc2626"/>
+              <rect x="4" y="9.5" width="16" height="5" rx="1" fill="#dc2626"/>
+            </svg>
           </span>
+          <span className="leading-tight text-left">LIMINAR CONTRA<br/>O PLANO DE SAÚDE</span>
         </a>
       </div>
-      <div className="absolute box-border caret-transparent gap-x-5 h-fit max-w-full gap-y-5"></div>
-      <div className="relative self-center box-border caret-transparent gap-x-5 block leading-[0px] max-w-full min-h-[auto] gap-y-5 md:self-auto md:hidden md:min-h-0">
-        <div className="box-border caret-transparent text-center">
-          <a
-            href="https://empregga.com.br/#elementor-action%3Aaction%3Doff_canvas%3Aopen%26settings%3DeyJpZCI6IjRiZmFhZDYiLCJkaXNwbGF5TW9kZSI6Im9wZW4ifQ%3D%3D"
-            className="text-blue-700 text-[21px] box-border caret-transparent inline-block leading-[21px] md:text-[50px] md:leading-[50px]"
-          >
-            <img
-              src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-6.svg"
-              alt="Icon"
-              className="relative text-[21px] box-border caret-transparent h-[21px] leading-[21px] align-baseline md:text-[50px] md:h-[50px] md:leading-[50px]"
-            />
-          </a>
+      {/* Mobile menu toggle */}
+      <div className="relative self-center block md:hidden">
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="flex items-center justify-center w-10 h-10 cursor-pointer bg-transparent border-none"
+          aria-label="Abrir menu"
+        >
+          <svg className={`w-6 h-6 text-blue-700 transition-transform duration-300 ${menuOpen ? "rotate-90" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            {menuOpen ? (
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            ) : (
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            )}
+          </svg>
+        </button>
+      </div>
+      {/* Mobile menu dropdown */}
+      {menuOpen && (
+        <div className="fixed left-0 right-0 top-[52px] bg-white shadow-lg border-t border-gray-100 z-[100] md:hidden">
+          <nav className="flex flex-col px-5 py-4 gap-1">
+            <a href="#escritorio" onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
+              O Escritório
+            </a>
+            <a href="#propriedade-intelectual" onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
+              Propriedade Intelectual
+            </a>
+            <a href="#direito-saude" onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
+              Direito à Saúde
+            </a>
+            <a href="#contato" onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
+              Contato
+            </a>
+            <div className="flex flex-col gap-2 mt-3">
+              <a
+                href="#propriedade-intelectual"
+                onClick={() => setMenuOpen(false)}
+                className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#1a6b2a] to-[#228B3B] text-white text-xs font-bold uppercase tracking-wider px-5 py-3 rounded-xl font-aalto_sans_pro"
+              >
+                <img src="/images/advogado-marcas.jpg" alt="Brasil" className="w-8 h-6 object-cover rounded-lg" />
+                REGISTRE SUA MARCA ONLINE
+              </a>
+              <a
+                href="#direito-saude"
+                onClick={() => setMenuOpen(false)}
+                className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#1a3a6b] to-[#2555a0] text-white text-xs font-bold uppercase tracking-wider px-5 py-3 rounded-xl font-aalto_sans_pro"
+              >
+                <span className="flex items-center justify-center w-7 h-7 bg-white/90 rounded-lg">
+                  <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none">
+                    <rect x="9.5" y="4" width="5" height="16" rx="1" fill="#dc2626"/>
+                    <rect x="4" y="9.5" width="16" height="5" rx="1" fill="#dc2626"/>
+                  </svg>
+                </span>
+                LIMINAR CONTRA O PLANO DE SAÚDE
+              </a>
+            </div>
+          </nav>
         </div>
-      </div>
+      )}
     </div>
   );
 };

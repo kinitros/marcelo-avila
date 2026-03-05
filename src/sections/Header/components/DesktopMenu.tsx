@@ -4,51 +4,41 @@ export const DesktopMenu = () => {
       <ul className="box-border caret-transparent flex flex-wrap list-none -mx-2 pl-0">
         <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 mx-2 md:min-h-[auto] md:min-w-[auto]">
           <a
-            href="https://empregga.com.br/quem-somos/"
+            href="#escritorio"
             className="text-blue-700 font-medium items-center box-border caret-transparent flex min-h-0 min-w-0 w-full font-aalto_sans_pro md:min-h-[auto] md:min-w-[auto]"
           >
             <span className="text-zinc-600 box-border caret-transparent block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-              Quem somos
+              O Escritório
             </span>
           </a>
         </li>
         <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 mx-2 md:min-h-[auto] md:min-w-[auto]">
           <a
-            href="https://empregga.com.br/empresas/"
+            href="#propriedade-intelectual"
             className="text-blue-700 font-medium items-center box-border caret-transparent flex min-h-0 min-w-0 w-full font-aalto_sans_pro md:min-h-[auto] md:min-w-[auto]"
           >
             <span className="text-zinc-600 box-border caret-transparent block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-              Empresas
+              Propriedade Intelectual
             </span>
           </a>
         </li>
         <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 mx-2 md:min-h-[auto] md:min-w-[auto]">
           <a
-            href="https://empregga.com.br/recrutadores/"
+            href="#direito-saude"
             className="text-blue-700 font-medium items-center box-border caret-transparent flex min-h-0 min-w-0 w-full font-aalto_sans_pro md:min-h-[auto] md:min-w-[auto]"
           >
             <span className="text-zinc-600 box-border caret-transparent block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-              Profissionais de RH
+              Direito à Saúde
             </span>
           </a>
         </li>
         <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 mx-2 md:min-h-[auto] md:min-w-[auto]">
           <a
-            href="https://empregga.com.br/candidatos/"
+            href="#contato"
             className="text-blue-700 font-medium items-center box-border caret-transparent flex min-h-0 min-w-0 w-full font-aalto_sans_pro md:min-h-[auto] md:min-w-[auto]"
           >
             <span className="text-zinc-600 box-border caret-transparent block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-              Candidatos
-            </span>
-          </a>
-        </li>
-        <li className="relative items-center box-border caret-transparent flex min-h-0 min-w-0 mx-2 md:min-h-[auto] md:min-w-[auto]">
-          <a
-            href="https://empregga.com.br/blog/"
-            className="text-blue-700 font-medium items-center box-border caret-transparent flex min-h-0 min-w-0 w-full font-aalto_sans_pro md:min-h-[auto] md:min-w-[auto]"
-          >
-            <span className="text-zinc-600 box-border caret-transparent block min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
-              Blog
+              Contato
             </span>
           </a>
         </li>

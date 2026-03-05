@@ -21,7 +21,7 @@ export const FooterLinks = () => {
         <FooterColumn
           title="Contato"
           links={[
-            { text: "(21) 3802-3838", href: "tel:+552138023838" },
+            { text: "(21) 97272-8787", href: "https://wa.me/5521972728787?text=Olá! Gostaria de mais informações." },
             { text: "info@avilanascimento.adv.br", href: "mailto:info@avilanascimento.adv.br" },
           ]}
         />
@@ -32,13 +32,13 @@ export const FooterLinks = () => {
           ]}
         />
       </div>
-      <div className="relative items-center box-border caret-transparent gap-x-4 flex flex-wrap justify-center min-h-[auto] gap-y-4 w-full md:[align-items:normal] md:justify-start md:w-[370px]">
-        <div className="relative box-border caret-transparent gap-x-4 max-w-full min-h-[auto] gap-y-4 text-center w-full md:text-start">
-          <p className="text-neutral-900 font-medium box-border caret-transparent leading-4 text-center font-aalto_sans_pro md:text-start">
+      <div className="relative items-center box-border caret-transparent gap-x-4 flex flex-wrap justify-start min-h-[auto] gap-y-4 w-full md:[align-items:normal] md:justify-start md:w-[370px]">
+        <div className="relative box-border caret-transparent gap-x-4 max-w-full min-h-[auto] gap-y-4 text-left w-full md:text-start">
+          <p className="text-neutral-900 font-medium box-border caret-transparent leading-4 text-left font-aalto_sans_pro md:text-start">
             Fale Conosco
           </p>
         </div>
-        <div className="relative box-border caret-transparent gap-x-4 max-w-full min-h-[auto] gap-y-4 text-center md:text-start">
+        <div className="relative box-border caret-transparent gap-x-4 max-w-full min-h-[auto] gap-y-4 text-left md:text-start">
           <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro">
             Seg - Dom: 09:00 - 18:00
           </p>

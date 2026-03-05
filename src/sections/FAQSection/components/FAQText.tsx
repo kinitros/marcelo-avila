@@ -43,7 +43,7 @@ export const FAQText = () => {
         </div>
         <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-0 gap-y-5 md:min-h-[auto]">
           <a
-            href="https://wa.me/552138023838?text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20do%20%C3%81vila%20Nascimento%20Advocacia!"
+            href="https://wa.me/5521972728787?text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20do%20%C3%81vila%20Nascimento%20Advocacia!"
             className="text-blue-700 text-lg font-medium bg-transparent box-border caret-transparent inline-block fill-blue-700 leading-[18px] text-center w-full border border-blue-700 p-[15px] rounded-[100px] border-solid font-aalto_sans_pro md:w-auto md:px-[42px] md:py-4"
           >
             <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 justify-center gap-y-[5px]">

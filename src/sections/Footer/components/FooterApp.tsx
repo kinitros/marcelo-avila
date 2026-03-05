@@ -11,7 +11,7 @@ export const FooterApp = () => {
           Seg - Dom: 09:00 - 18:00
         </p>
         <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro mt-2">
-          +55 (21) 3802-3838
+          <a href="https://wa.me/5521972728787?text=Olá! Gostaria de mais informações." className="text-stone-500 hover:text-blue-700 transition-colors">+55 (21) 97272-8787</a>
         </p>
         <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro mt-1">
           info@avilanascimento.adv.br

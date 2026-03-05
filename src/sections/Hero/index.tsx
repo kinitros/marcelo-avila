@@ -13,8 +13,7 @@ export const Hero = () => {
               aria-label="1 / 3"
               className="relative box-border caret-transparent shrink-0 h-full min-h-[auto] min-w-[auto] w-[65%] ml-auto mr-[10%]"
             >
-              <div className="bg-[url('/images/advogado.jpg')] bg-contain bg-no-repeat box-border caret-transparent h-[115%] w-full bg-[position:center_top_2rem] relative [transform:scaleX(-1)]"></div>
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-neutral-900/60 to-neutral-900 [transform:scaleX(-1)]"></div>
+              <div className="bg-[url('/images/advogado.jpg')] bg-contain bg-no-repeat box-border caret-transparent h-[115%] w-full bg-[position:center_top_2rem] relative [transform:scaleX(-1)] brightness-110"></div>
             </div>
           </div>
         </div>
@@ -174,9 +173,9 @@ export const Hero = () => {
             <div className="flex flex-col gap-3 w-full">
               <div className="flex items-center gap-4 bg-white border border-gray-200 rounded-lg px-4 py-3 shadow-sm">
                 <img
-                  src="/images/ranking-analise.png"
+                  src="/images/advogado-frente.jpg"
                   alt="Ranking Análise Advocacia Regional 2023"
-                  className="w-16 h-16 object-contain flex-shrink-0 rounded"
+                  className="w-16 h-16 object-cover flex-shrink-0 rounded"
                 />
                 <div>
                   <p className="text-neutral-800 text-sm font-semibold font-aalto_sans_pro m-0">Ranking Análise Advocacia 2023</p>
@@ -230,8 +229,29 @@ export const Hero = () => {
                         className="absolute bg-blue-700 box-border caret-transparent h-[30px] outline-zinc-300 outline outline-1 transform-none w-[30px] border border-blue-700 p-[18px] rounded-[100px] border-solid right-0 top-0 md:translate-x-[-54px] md:translate-y-[-58px] before:accent-auto before:box-border before:caret-transparent before:text-black before:block before:text-sm before:not-italic before:normal-nums before:font-normal before:h-2.5 before:tracking-[normal] before:leading-[19.6px] before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-left before:no-underline before:indent-[0px] before:normal-case before:transform-none before:visible before:w-2.5 before:border-l-2 before:border-b-2 before:border-separate before:border-solid before:border-white before:left-2/4 before:top-2/4 before:font-trustindex_poppins before:md:translate-x-[-3px] before:md:translate-y-[-5px] before:md:rotate-45"
                       ></div>
                     </div>
-                    <div className="box-border caret-transparent flex overflow-hidden -mx-2 py-3 md:mx-2">
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                    <div className="relative">
+                    <button
+                      aria-label="Avaliação anterior"
+                      onClick={(e) => {
+                        const container = e.currentTarget.nextElementSibling?.nextElementSibling as HTMLElement;
+                        if (container) container.scrollBy({ left: -(container.offsetWidth * 0.78), behavior: 'smooth' });
+                      }}
+                      className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 z-10 bg-blue-700 text-white w-9 h-9 rounded-full flex items-center justify-center shadow-lg md:hidden cursor-pointer"
+                    >
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
+                    </button>
+                    <button
+                      aria-label="Próxima avaliação"
+                      onClick={(e) => {
+                        const container = e.currentTarget.nextElementSibling as HTMLElement;
+                        if (container) container.scrollBy({ left: container.offsetWidth * 0.78, behavior: 'smooth' });
+                      }}
+                      className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 z-10 bg-blue-700 text-white w-9 h-9 rounded-full flex items-center justify-center shadow-lg md:hidden cursor-pointer"
+                    >
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
+                    </button>
+                    <div className="box-border caret-transparent flex overflow-x-auto -mx-2 py-3 md:mx-2 md:overflow-hidden scrollbar-hide" style={{ scrollbarWidth: 'none' }}>
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -293,7 +313,7 @@ export const Hero = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -356,7 +376,7 @@ export const Hero = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -429,7 +449,7 @@ export const Hero = () => {
                           </span>
                         </div>
                       </div>
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -492,7 +512,7 @@ export const Hero = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -556,7 +576,7 @@ export const Hero = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -629,7 +649,7 @@ export const Hero = () => {
                           </span>
                         </div>
                       </div>
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -704,7 +724,7 @@ export const Hero = () => {
                           </span>
                         </div>
                       </div>
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -766,7 +786,7 @@ export const Hero = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="relative box-border caret-transparent basis-3/12 shrink-0 max-w-[25%] min-h-[auto] min-w-[auto] px-2">
+                      <div className="relative box-border caret-transparent basis-[75%] shrink-0 max-w-[75%] min-h-[auto] min-w-[auto] px-2 md:basis-3/12 md:max-w-[25%]">
                         <div className="relative backdrop-blur-0 bg-white bg-no-repeat bg-size-[270px] shadow-[rgba(0,0,0,0.03)_1px_4px_10px_0px,rgba(0,0,0,0.05)_0px_0px_2px_0px] box-border caret-transparent bg-[position:calc(100%_+_70px)_-70px] p-5 rounded-xl">
                           <div className="relative box-border caret-transparent flex">
                             <div className="absolute box-border caret-transparent h-5 w-5 right-0 top-0">
@@ -843,8 +863,6 @@ export const Hero = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="relative bg-zinc-600/40 box-border caret-transparent block h-[3px] w-[150px] overflow-hidden mx-auto my-5 rounded-[3px] md:hidden">
-                      <div className="absolute bg-zinc-600 box-border caret-transparent h-full w-px px-1 rounded-[3px] left-[17%] top-0"></div>
                     </div>
                   </div>
                 </div>
@@ -853,9 +871,16 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+      {/* CTA - Entrar em Contato */}
+      <div className="flex justify-center pt-0 pb-2 md:pt-0 md:pb-2 px-5">
+        <a href="https://wa.me/5521972728787?text=Olá! Gostaria de mais informações sobre os serviços do escritório." className="text-white text-lg font-medium bg-blue-700 flex items-center justify-center gap-2 w-full max-w-md px-5 py-3.5 rounded-[100px] font-aalto_sans_pro shadow-lg hover:bg-blue-800 transition-colors duration-200 md:text-lg md:px-10 md:py-4 md:max-w-none md:w-auto md:inline-flex">
+          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.613.613l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.352 0-4.55-.764-6.325-2.055l-.44-.334-2.634.883.883-2.634-.334-.44A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Entrar em Contato
+        </a>
+      </div>
       <div className="relative box-border caret-transparent flex flex-col max-w-full w-full mx-auto">
         <div className="box-border caret-transparent gap-x-5 flex flex-col grow flex-wrap h-full max-w-full px-5 md:px-0 min-h-[auto] min-w-[auto] gap-y-5 w-full mx-auto py-8 md:flex-nowrap md:max-w-6xl md:py-20">
-          <div className="relative self-center bg-white shadow-[rgba(0,0,0,0.07)_0px_2.448px_4.897px_-2.448px,rgba(0,0,0,0.1)_0px_12.241px_18.362px_-3.672px] box-border caret-transparent gap-x-5 flex flex-col-reverse flex-wrap justify-center min-h-[auto] gap-y-5 w-full mb-12 pt-5 px-5 md:pt-8 md:px-8 rounded-3xl md:self-auto md:flex-row md:flex-nowrap md:mb-20">
+          <div className="relative self-center bg-white shadow-[rgba(0,0,0,0.07)_0px_2.448px_4.897px_-2.448px,rgba(0,0,0,0.1)_0px_12.241px_18.362px_-3.672px] box-border caret-transparent gap-x-5 flex flex-col-reverse flex-wrap justify-center min-h-[auto] gap-y-5 w-full mb-12 pt-5 pb-5 px-5 md:pt-8 md:pb-8 md:px-8 rounded-3xl md:self-auto md:flex-row md:flex-nowrap md:mb-20">
             <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 text-center w-full md:w-2/5 overflow-hidden rounded-2xl">
               <img
                 src="/images/galeria02.jpg"
@@ -1002,9 +1027,15 @@ export const Hero = () => {
                     </div>
                   </li>
                 </ul>
+                <div className="mt-6">
+                  <a href="https://wa.me/5521972728787?text=Olá! Gostaria de mais informações sobre os serviços do escritório." className="text-white text-lg font-medium bg-blue-700 flex items-center justify-center gap-2 w-full px-5 py-3.5 rounded-[100px] font-aalto_sans_pro shadow-lg hover:bg-blue-800 transition-colors duration-200 md:inline-flex md:w-auto md:px-10 md:py-4">
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.613.613l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.352 0-4.55-.764-6.325-2.055l-.44-.334-2.634.883.883-2.634-.334-.44A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+                    Entrar em Contato
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="relative self-end box-border caret-transparent gap-x-5 flex flex-col flex-wrap min-h-[auto] gap-y-5 w-full md:self-auto md:flex-nowrap md:w-[49%]">
+            <div className="relative self-end box-border caret-transparent gap-x-5 hidden md:flex flex-col flex-wrap min-h-[auto] gap-y-5 w-full md:self-auto md:flex-nowrap md:w-[49%]">
               <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 text-center w-full">
                 <img
                   src="/images/galeria03.jpg"
@@ -1037,50 +1068,30 @@ export const Hero = () => {
             </div>
             <div className="relative box-border caret-transparent gap-x-5 flex flex-col flex-wrap min-h-[auto] gap-y-5 w-full z-[1] md:flex-nowrap md:w-[52%]">
               <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 w-full">
-                <ul className="box-border caret-transparent list-none pl-0">
-                  <li className="relative items-center bg-zinc-50 box-border caret-transparent flex justify-start border border-gray-200 px-[15px] py-2.5 rounded-[100px] border-solid md:px-[34px] md:py-5">
-                    <span className="text-stone-600 text-base font-medium box-border caret-transparent block leading-[21.6px] min-h-[auto] min-w-[auto] font-aalto_sans_pro md:text-[22px] md:leading-[26.4px]">
-                      <img
-                        role="img"
-                        alt="✅"
-                        src="https://s.w.org/images/core/emoji/17.0.2/svg/2705.svg"
-                        className="text-lg aspect-[auto_22_/_22] box-border caret-transparent inline h-[18px] leading-[21.6px] max-w-full w-[18px] mx-[1.26px] md:text-[22px] md:h-[22px] md:leading-[26.4px] md:w-[22px] md:mx-[1.54px]"
-                      />
-                      Análise personalizada do seu caso
+                <ul className="list-none pl-0 flex flex-col gap-3 md:gap-4">
+                  <li className="flex items-center gap-3 bg-white border border-gray-100 px-4 py-3 rounded-2xl shadow-[0_1px_3px_rgba(0,0,0,0.04),0_4px_12px_rgba(0,0,0,0.03)] transition-all duration-200 hover:shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:border-blue-100 md:px-6 md:py-4 md:gap-4">
+                    <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 bg-blue-50 rounded-xl md:w-10 md:h-10">
+                      <svg className="w-4 h-4 text-blue-600 md:w-5 md:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
                     </span>
+                    <span className="text-neutral-800 text-sm font-medium font-aalto_sans_pro md:text-lg">Análise personalizada do seu caso</span>
                   </li>
-                  <li className="relative items-center bg-zinc-50 box-border caret-transparent flex justify-start border border-gray-200 mt-[16.5px] px-[15px] py-2.5 rounded-[100px] border-solid md:mt-[25px] md:px-[34px] md:py-5">
-                    <span className="text-stone-600 text-base font-medium box-border caret-transparent block leading-[21.6px] min-h-[auto] min-w-[auto] font-aalto_sans_pro md:text-[22px] md:leading-[26.4px]">
-                      <img
-                        role="img"
-                        alt="✅"
-                        src="https://s.w.org/images/core/emoji/17.0.2/svg/2705.svg"
-                        className="text-lg aspect-[auto_22_/_22] box-border caret-transparent inline h-[18px] leading-[21.6px] max-w-full w-[18px] mx-[1.26px] md:text-[22px] md:h-[22px] md:leading-[26.4px] md:w-[22px] md:mx-[1.54px]"
-                      />
-                      Acompanhamento transparente em cada etapa
+                  <li className="flex items-center gap-3 bg-white border border-gray-100 px-4 py-3 rounded-2xl shadow-[0_1px_3px_rgba(0,0,0,0.04),0_4px_12px_rgba(0,0,0,0.03)] transition-all duration-200 hover:shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:border-blue-100 md:px-6 md:py-4 md:gap-4">
+                    <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 bg-blue-50 rounded-xl md:w-10 md:h-10">
+                      <svg className="w-4 h-4 text-blue-600 md:w-5 md:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
                     </span>
+                    <span className="text-neutral-800 text-sm font-medium font-aalto_sans_pro md:text-lg">Acompanhamento transparente em cada etapa</span>
                   </li>
-                  <li className="relative items-center bg-zinc-50 box-border caret-transparent flex justify-start border border-gray-200 mt-[16.5px] px-[15px] py-2.5 rounded-[100px] border-solid md:mt-[25px] md:px-[34px] md:py-5">
-                    <span className="text-stone-600 text-base font-medium box-border caret-transparent block leading-[21.6px] min-h-[auto] min-w-[auto] font-aalto_sans_pro md:text-[22px] md:leading-[26.4px]">
-                      <img
-                        role="img"
-                        alt="✅"
-                        src="https://s.w.org/images/core/emoji/17.0.2/svg/2705.svg"
-                        className="text-lg aspect-[auto_22_/_22] box-border caret-transparent inline h-[18px] leading-[21.6px] max-w-full w-[18px] mx-[1.26px] md:text-[22px] md:h-[22px] md:leading-[26.4px] md:w-[22px] md:mx-[1.54px]"
-                      />
-                      Honorários justos e previsíveis
+                  <li className="flex items-center gap-3 bg-white border border-gray-100 px-4 py-3 rounded-2xl shadow-[0_1px_3px_rgba(0,0,0,0.04),0_4px_12px_rgba(0,0,0,0.03)] transition-all duration-200 hover:shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:border-blue-100 md:px-6 md:py-4 md:gap-4">
+                    <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 bg-blue-50 rounded-xl md:w-10 md:h-10">
+                      <svg className="w-4 h-4 text-blue-600 md:w-5 md:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
                     </span>
+                    <span className="text-neutral-800 text-sm font-medium font-aalto_sans_pro md:text-lg">Honorários justos e previsíveis</span>
                   </li>
-                  <li className="relative items-center bg-zinc-50 box-border caret-transparent flex justify-start border border-gray-200 mt-[16.5px] px-[15px] py-2.5 rounded-[100px] border-solid md:mt-[25px] md:px-[34px] md:py-5">
-                    <span className="text-stone-600 text-base font-medium box-border caret-transparent block leading-[21.6px] min-h-[auto] min-w-[auto] font-aalto_sans_pro md:text-[22px] md:leading-[26.4px]">
-                      <img
-                        role="img"
-                        alt="✅"
-                        src="https://s.w.org/images/core/emoji/17.0.2/svg/2705.svg"
-                        className="text-lg aspect-[auto_22_/_22] box-border caret-transparent inline h-[18px] leading-[21.6px] max-w-full w-[18px] mx-[1.26px] md:text-[22px] md:h-[22px] md:leading-[26.4px] md:w-[22px] md:mx-[1.54px]"
-                      />
-                      Resultados que geram confiança e recomendação
+                  <li className="flex items-center gap-3 bg-white border border-gray-100 px-4 py-3 rounded-2xl shadow-[0_1px_3px_rgba(0,0,0,0.04),0_4px_12px_rgba(0,0,0,0.03)] transition-all duration-200 hover:shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:border-blue-100 md:px-6 md:py-4 md:gap-4">
+                    <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 bg-blue-50 rounded-xl md:w-10 md:h-10">
+                      <svg className="w-4 h-4 text-blue-600 md:w-5 md:h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
                     </span>
+                    <span className="text-neutral-800 text-sm font-medium font-aalto_sans_pro md:text-lg">Resultados que geram confiança e recomendação</span>
                   </li>
                 </ul>
               </div>
@@ -1139,6 +1150,12 @@ export const Hero = () => {
               <p className="text-stone-500 text-sm box-border caret-transparent leading-[20px] font-montserrat mt-1">
                 Av. das Américas, 12.551 — Barra da Tijuca, Rio de Janeiro – RJ
               </p>
+              <div className="mt-5">
+                <a href="https://wa.me/5521972728787?text=Olá! Gostaria de mais informações sobre os serviços do escritório." className="text-white text-lg font-medium bg-blue-700 flex items-center justify-center gap-2 w-full px-5 py-3.5 rounded-[100px] font-aalto_sans_pro shadow-lg hover:bg-blue-800 transition-colors duration-200 md:inline-flex md:w-auto md:px-10 md:py-4">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.613.613l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.352 0-4.55-.764-6.325-2.055l-.44-.334-2.634.883.883-2.634-.334-.44A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+                  Entrar em Contato
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -1236,7 +1253,7 @@ export const Hero = () => {
                       />
                     </span>
                     <span className="box-border caret-transparent block fill-blue-700 min-h-[auto] min-w-[auto]">
-                      Fale conosco
+                      Saiba Mais
                     </span>
                   </span>
                 </a>
@@ -1291,7 +1308,7 @@ export const Hero = () => {
               </div>
               <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-0 gap-y-5 md:min-h-[auto]">
                 <a
-                  href="https://wa.me/552138023838?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20do%20escrit%C3%B3rio."
+                  href="https://wa.me/5521972728787?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20do%20escrit%C3%B3rio."
                   className="text-blue-700 text-lg font-medium bg-transparent box-border caret-transparent inline-block fill-blue-700 leading-[18px] text-center w-full border border-blue-700 p-[15px] rounded-[100px] border-solid font-aalto_sans_pro md:w-auto md:px-[42px] md:py-4"
                 >
                   <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 justify-center gap-y-[5px]">
@@ -1303,191 +1320,47 @@ export const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="relative self-center box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 w-full md:w-6/12">
-            <div
-              aria-label="Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys"
-              className="box-border caret-transparent"
-            >
-              <details className="relative bg-white box-border caret-transparent flex flex-col mb-3.5 rounded-md">
-                <summary className="relative text-neutral-800 items-center box-border caret-transparent gap-x-2.5 flex justify-between list-none min-h-[auto] min-w-[auto] gap-y-0 p-4 rounded-md before:accent-auto before:bg-blue-700 before:bg-contain before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:translate-x-[-7.5px] before:-translate-y-px before:visible before:w-[15px] before:rounded-[100px] before:border-separate before:-scale-100 before:right-5 before:top-[calc(50%_+_2px)] before:font-apple_system after:accent-auto after:bg-blue-700 after:bg-contain after:box-border after:caret-transparent after:text-neutral-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:-translate-x-2 after:-translate-y-px after:visible after:w-[15px] after:rounded-[100px] after:border-separate after:-scale-100 after:right-5 after:top-[calc(50%_+_2px)] after:font-apple_system">
-                  <span className="box-border caret-transparent flex min-h-[auto] min-w-[auto] pr-12">
-                    <div className="text-xl font-medium items-center box-border caret-transparent flex justify-start leading-[30px] min-h-[auto] min-w-[auto] w-full font-aalto_sans_pro">
-                      {" "}
-                      Quais serviços o escritório oferece?{" "}
+          <div className="relative self-center w-full md:w-6/12">
+            <div className="flex flex-col gap-3">
+              {[
+                { q: "Quais serviços o escritório oferece?", a: "Somos especializados em Propriedade Intelectual (registro de marcas, patentes e direitos autorais junto ao INPI) e Direito à Saúde (ações contra planos de saúde e defesa do consumidor)." },
+                { q: "Quanto tempo leva o registro de uma marca?", a: "O processo de registro de marca no INPI leva em média de 12 a 18 meses. No entanto, a proteção começa desde o protocolo do pedido. Acompanhamos todo o processo até a concessão definitiva do registro." },
+                { q: "O escritório atende em todo o Brasil?", a: "Sim! Nosso escritório está localizado na Barra da Tijuca, Rio de Janeiro, mas atendemos clientes de todo o Brasil, tanto presencialmente quanto de forma remota." },
+                { q: "Como funciona o processo de registro de marca?", a: "O processo inclui pesquisa de anterioridade, elaboração e protocolo do pedido junto ao INPI, acompanhamento de publicações oficiais e resposta a eventuais exigências até a concessão do registro." },
+                { q: "Meu plano de saúde negou um procedimento, o que fazer?", a: "Quando o plano de saúde nega um procedimento, tratamento ou exame, você pode buscar seus direitos judicialmente. Nossa equipe analisa seu caso e, se houver fundamento legal, ingressamos com a ação para garantir a cobertura devida." },
+                { q: "Como são cobrados os honorários?", a: "Os honorários são definidos de forma transparente na consulta inicial, com valores acessíveis e previsíveis. Trabalhamos com honorários fixos para registros de marca e honorários condicionados ao êxito em ações judiciais, conforme o caso." },
+                { q: "Qual a experiência do escritório?", a: "Nosso sócio fundador, Marcello Ávila do Nascimento Souza, é Advogado (OAB-RJ nº 128.829) e Agente da Propriedade Industrial (INPI matrícula 0636) com mais de 28 anos de atuação. É associado à ABPI e ABAPI, referências em propriedade intelectual no Brasil." },
+                { q: "Como posso agendar uma consulta?", a: "Entre em contato pelo WhatsApp (21) 97272-8787, pelo e-mail info@avilanascimento.adv.br ou pelas nossas redes sociais. Atendemos de segunda a domingo, das 09:00 às 18:00." },
+              ].map((item, i) => (
+                <div key={i} className="group">
+                  <button
+                    onClick={(e) => {
+                      const content = e.currentTarget.nextElementSibling as HTMLElement;
+                      const icon = e.currentTarget.querySelector('.faq-icon') as HTMLElement;
+                      if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+                        content.style.maxHeight = '0px';
+                        content.style.opacity = '0';
+                        icon.style.transform = 'rotate(0deg)';
+                        e.currentTarget.parentElement!.classList.remove('is-open');
+                      } else {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        content.style.opacity = '1';
+                        icon.style.transform = 'rotate(180deg)';
+                        e.currentTarget.parentElement!.classList.add('is-open');
+                      }
+                    }}
+                    className="w-full flex items-center justify-between gap-4 bg-white border border-gray-100 px-5 py-4 rounded-2xl text-left shadow-[0_1px_3px_rgba(0,0,0,0.04),0_4px_12px_rgba(0,0,0,0.03)] transition-all duration-200 hover:shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:border-blue-100 md:px-6 md:py-5 cursor-pointer"
+                  >
+                    <span className="text-neutral-800 text-base font-medium font-aalto_sans_pro md:text-lg leading-snug">{item.q}</span>
+                    <span className="faq-icon flex-shrink-0 text-blue-700 text-xl transition-transform duration-300">&#9660;</span>
+                  </button>
+                  <div className="overflow-hidden transition-all duration-300 ease-in-out" style={{ maxHeight: '0px', opacity: 0 }}>
+                    <div className="bg-white border border-gray-100 rounded-2xl mt-1.5 px-5 py-4 shadow-[0_1px_3px_rgba(0,0,0,0.04)] md:px-6">
+                      <p className="text-stone-500 text-sm font-montserrat leading-relaxed md:text-base">{item.a}</p>
                     </div>
-                  </span>
-                </summary>
-                <div
-                  role="region"
-                  className="relative box-border caret-transparent gap-x-5 flex flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
-                >
-                  <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5">
-                    <p className="text-neutral-500 text-base md:text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                      Somos especializados em Propriedade Intelectual (registro de marcas,
-                      patentes e direitos autorais junto ao INPI) e Direito à Saúde
-                      (ações contra planos de saúde e defesa do consumidor).
-                    </p>
                   </div>
                 </div>
-              </details>
-              <details className="relative bg-white box-border caret-transparent flex flex-col mb-3.5 rounded-md">
-                <summary className="relative text-neutral-800 items-center box-border caret-transparent gap-x-2.5 flex justify-between list-none min-h-[auto] min-w-[auto] gap-y-0 p-4 rounded-md before:accent-auto before:bg-blue-700 before:bg-contain before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:translate-x-[-7.5px] before:-translate-y-px before:rotate-90 before:visible before:w-[15px] before:rounded-[100px] before:border-separate before:right-5 before:top-[calc(50%_+_2px)] before:font-apple_system after:accent-auto after:bg-blue-700 after:bg-contain after:box-border after:caret-transparent after:text-neutral-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-7.5px] after:-translate-y-px after:visible after:w-[15px] after:rounded-[100px] after:border-separate after:-scale-100 after:right-5 after:top-[calc(50%_+_2px)] after:font-apple_system">
-                  <span className="box-border caret-transparent flex min-h-[auto] min-w-[auto] pr-12">
-                    <div className="text-xl font-medium items-center box-border caret-transparent flex justify-start leading-[30px] min-h-[auto] min-w-[auto] w-full font-aalto_sans_pro">
-                      {" "}
-                      Quanto tempo leva o registro de uma marca?{" "}
-                    </div>
-                  </span>
-                </summary>
-                <div
-                  role="region"
-                  className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
-                >
-                  <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-                    <p className="text-neutral-500 text-base md:text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                      O processo de registro de marca no INPI leva em média de
-                      12 a 18 meses. No entanto, a proteção começa desde o
-                      protocolo do pedido. Acompanhamos todo o processo até a
-                      concessão definitiva do registro.
-                    </p>
-                  </div>
-                </div>
-              </details>
-              <details className="relative bg-white box-border caret-transparent flex flex-col mb-3.5 rounded-md">
-                <summary className="relative text-neutral-800 items-center box-border caret-transparent gap-x-2.5 flex justify-between list-none min-h-[auto] min-w-[auto] gap-y-0 p-4 rounded-md before:accent-auto before:bg-blue-700 before:bg-contain before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:translate-x-[-7.5px] before:-translate-y-px before:rotate-90 before:visible before:w-[15px] before:rounded-[100px] before:border-separate before:right-5 before:top-[calc(50%_+_2px)] before:font-apple_system after:accent-auto after:bg-blue-700 after:bg-contain after:box-border after:caret-transparent after:text-neutral-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-7.5px] after:-translate-y-px after:visible after:w-[15px] after:rounded-[100px] after:border-separate after:-scale-100 after:right-5 after:top-[calc(50%_+_2px)] after:font-apple_system">
-                  <span className="box-border caret-transparent flex min-h-[auto] min-w-[auto] pr-12">
-                    <div className="text-xl font-medium items-center box-border caret-transparent flex justify-start leading-[30px] min-h-[auto] min-w-[auto] w-full font-aalto_sans_pro">
-                      {" "}
-                      O escritório atende em todo o Brasil?{" "}
-                    </div>
-                  </span>
-                </summary>
-                <div
-                  role="region"
-                  className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
-                >
-                  <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-                    <p className="text-neutral-500 text-base md:text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                      Sim! Nosso escritório está localizado na Barra da Tijuca, Rio de
-                      Janeiro, mas atendemos clientes de todo o Brasil, tanto
-                      presencialmente quanto de forma remota.
-                    </p>
-                  </div>
-                </div>
-              </details>
-              <details className="relative bg-white box-border caret-transparent flex flex-col mb-3.5 rounded-md">
-                <summary className="relative text-neutral-800 items-center box-border caret-transparent gap-x-2.5 flex justify-between list-none min-h-[auto] min-w-[auto] gap-y-0 p-4 rounded-md before:accent-auto before:bg-blue-700 before:bg-contain before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:translate-x-[-7.5px] before:-translate-y-px before:rotate-90 before:visible before:w-[15px] before:rounded-[100px] before:border-separate before:right-5 before:top-[calc(50%_+_2px)] before:font-apple_system after:accent-auto after:bg-blue-700 after:bg-contain after:box-border after:caret-transparent after:text-neutral-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-7.5px] after:-translate-y-px after:visible after:w-[15px] after:rounded-[100px] after:border-separate after:-scale-100 after:right-5 after:top-[calc(50%_+_2px)] after:font-apple_system">
-                  <span className="box-border caret-transparent flex min-h-[auto] min-w-[auto] pr-12">
-                    <div className="text-xl font-medium items-center box-border caret-transparent flex justify-start leading-[30px] min-h-[auto] min-w-[auto] w-full font-aalto_sans_pro">
-                      {" "}
-                      Como funciona o processo de registro de marca?{" "}
-                    </div>
-                  </span>
-                </summary>
-                <div
-                  role="region"
-                  className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
-                >
-                  <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-                    <p className="text-neutral-500 text-base md:text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                      O processo inclui pesquisa de anterioridade, elaboração e protocolo
-                      do pedido junto ao INPI, acompanhamento de publicações oficiais e
-                      resposta a eventuais exigências até a concessão do registro.
-                    </p>
-                  </div>
-                </div>
-              </details>
-              <details className="relative bg-white box-border caret-transparent flex flex-col mb-3.5 rounded-md">
-                <summary className="relative text-neutral-800 items-center box-border caret-transparent gap-x-2.5 flex justify-between list-none min-h-[auto] min-w-[auto] gap-y-0 p-4 rounded-md before:accent-auto before:bg-blue-700 before:bg-contain before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:translate-x-[-7.5px] before:-translate-y-px before:rotate-90 before:visible before:w-[15px] before:rounded-[100px] before:border-separate before:right-5 before:top-[calc(50%_+_2px)] before:font-apple_system after:accent-auto after:bg-blue-700 after:bg-contain after:box-border after:caret-transparent after:text-neutral-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-7.5px] after:-translate-y-px after:visible after:w-[15px] after:rounded-[100px] after:border-separate after:-scale-100 after:right-5 after:top-[calc(50%_+_2px)] after:font-apple_system">
-                  <span className="box-border caret-transparent flex min-h-[auto] min-w-[auto] pr-12">
-                    <div className="text-xl font-medium items-center box-border caret-transparent flex justify-start leading-[30px] min-h-[auto] min-w-[auto] w-full font-aalto_sans_pro">
-                      {" "}
-                      Meu plano de saúde negou um procedimento, o que fazer?{" "}
-                    </div>
-                  </span>
-                </summary>
-                <div
-                  role="region"
-                  className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
-                >
-                  <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-                    <p className="text-neutral-500 text-base md:text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                      Quando o plano de saúde nega um procedimento, tratamento ou
-                      exame, você pode buscar seus direitos judicialmente. Nossa equipe
-                      analisa seu caso e, se houver fundamento legal, ingressamos com
-                      a ação para garantir a cobertura devida.
-                    </p>
-                  </div>
-                </div>
-              </details>
-              <details className="relative bg-white box-border caret-transparent flex flex-col mb-3.5 rounded-md">
-                <summary className="relative text-neutral-800 items-center box-border caret-transparent gap-x-2.5 flex justify-between list-none min-h-[auto] min-w-[auto] gap-y-0 p-4 rounded-md before:accent-auto before:bg-blue-700 before:bg-contain before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:translate-x-[-7.5px] before:-translate-y-px before:rotate-90 before:visible before:w-[15px] before:rounded-[100px] before:border-separate before:right-5 before:top-[calc(50%_+_2px)] before:font-apple_system after:accent-auto after:bg-blue-700 after:bg-contain after:box-border after:caret-transparent after:text-neutral-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-7.5px] after:-translate-y-px after:visible after:w-[15px] after:rounded-[100px] after:border-separate after:-scale-100 after:right-5 after:top-[calc(50%_+_2px)] after:font-apple_system">
-                  <span className="box-border caret-transparent flex min-h-[auto] min-w-[auto] pr-12">
-                    <div className="text-xl font-medium items-center box-border caret-transparent flex justify-start leading-[30px] min-h-[auto] min-w-[auto] w-full font-aalto_sans_pro">
-                      {" "}
-                      Como são cobrados os honorários?{" "}
-                    </div>
-                  </span>
-                </summary>
-                <div
-                  role="region"
-                  className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
-                >
-                  <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-                    <p className="text-neutral-500 text-base md:text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                      Os honorários são definidos de forma transparente na consulta
-                      inicial, com valores acessíveis e previsíveis. Trabalhamos com
-                      honorários fixos para registros de marca e honorários
-                      condicionados ao êxito em ações judiciais, conforme o caso.
-                    </p>
-                  </div>
-                </div>
-              </details>
-              <details className="relative bg-white box-border caret-transparent flex flex-col mb-3.5 rounded-md">
-                <summary className="relative text-neutral-800 items-center box-border caret-transparent gap-x-2.5 flex justify-between list-none min-h-[auto] min-w-[auto] gap-y-0 p-4 rounded-md before:accent-auto before:bg-blue-700 before:bg-contain before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:translate-x-[-7.5px] before:-translate-y-px before:rotate-90 before:visible before:w-[15px] before:rounded-[100px] before:border-separate before:right-5 before:top-[calc(50%_+_2px)] before:font-apple_system after:accent-auto after:bg-blue-700 after:bg-contain after:box-border after:caret-transparent after:text-neutral-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-7.5px] after:-translate-y-px after:visible after:w-[15px] after:rounded-[100px] after:border-separate after:-scale-100 after:right-5 after:top-[calc(50%_+_2px)] after:font-apple_system">
-                  <span className="box-border caret-transparent flex min-h-[auto] min-w-[auto] pr-12">
-                    <div className="text-xl font-medium items-center box-border caret-transparent flex justify-start leading-[30px] min-h-[auto] min-w-[auto] w-full font-aalto_sans_pro">
-                      {" "}
-                      Qual a experiência do escritório?{" "}
-                    </div>
-                  </span>
-                </summary>
-                <div
-                  role="region"
-                  className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
-                >
-                  <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-                    <p className="text-neutral-500 text-base md:text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                      Nosso sócio fundador, Marcello Ávila do Nascimento Souza, é
-                      Advogado (OAB-RJ nº 128.829) e Agente da Propriedade Industrial
-                      (INPI matrícula 0636) com mais de 28 anos de atuação. É associado
-                      à ABPI e ABAPI, referências em propriedade intelectual no Brasil.
-                    </p>
-                  </div>
-                </div>
-              </details>
-              <details className="relative bg-white box-border caret-transparent flex flex-col rounded-md">
-                <summary className="relative text-neutral-800 items-center box-border caret-transparent gap-x-2.5 flex justify-between list-none min-h-[auto] min-w-[auto] gap-y-0 p-4 rounded-md before:accent-auto before:bg-blue-700 before:bg-contain before:box-border before:caret-transparent before:text-neutral-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-0.5 before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:text-start before:no-underline before:indent-[0px] before:normal-case before:translate-x-[-7.5px] before:-translate-y-px before:rotate-90 before:visible before:w-[15px] before:rounded-[100px] before:border-separate before:right-5 before:top-[calc(50%_+_2px)] before:font-apple_system after:accent-auto after:bg-blue-700 after:bg-contain after:box-border after:caret-transparent after:text-neutral-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:h-0.5 after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:translate-x-[-7.5px] after:-translate-y-px after:visible after:w-[15px] after:rounded-[100px] after:border-separate after:-scale-100 after:right-5 after:top-[calc(50%_+_2px)] after:font-apple_system">
-                  <span className="box-border caret-transparent flex min-h-[auto] min-w-[auto] pr-12">
-                    <div className="text-xl font-medium items-center box-border caret-transparent flex justify-start leading-[30px] min-h-[auto] min-w-[auto] w-full font-aalto_sans_pro">
-                      {" "}
-                      Como posso agendar uma consulta?{" "}
-                    </div>
-                  </span>
-                </summary>
-                <div
-                  role="region"
-                  className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
-                >
-                  <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-                    <p className="text-neutral-500 text-base md:text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                      Entre em contato pelo telefone (21) 3802-3838, pelo e-mail
-                      info@avilanascimento.adv.br ou pelo WhatsApp. Atendemos de
-                      segunda a domingo, das 09:00 às 18:00.
-                    </p>
-                  </div>
-                </div>
-              </details>
+              ))}
             </div>
           </div>
           <div className="relative box-border caret-transparent gap-x-5 flex flex-col flex-wrap min-h-[auto] gap-y-5 w-full border border-zinc-300 p-[25.6px] rounded-lg border-solid md:hidden md:flex-nowrap md:min-h-0 md:w-[380px]">
@@ -1516,7 +1389,7 @@ export const Hero = () => {
             </div>
             <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 md:min-h-0">
               <a
-                href="https://wa.me/552138023838?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20do%20escrit%C3%B3rio."
+                href="https://wa.me/5521972728787?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20do%20escrit%C3%B3rio."
                 className="text-blue-700 text-lg font-medium bg-transparent box-border caret-transparent inline-block fill-blue-700 leading-[18px] text-center w-full border border-blue-700 p-[15px] rounded-[100px] border-solid font-aalto_sans_pro md:w-auto md:px-[42px] md:py-4"
               >
                 <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 justify-center gap-y-[5px]">
@@ -1526,22 +1399,6 @@ export const Hero = () => {
                 </span>
               </a>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="relative box-border caret-transparent flex flex-col max-w-full w-full mx-auto">
-        <div className="items-center box-border caret-transparent gap-x-2 flex grow flex-wrap h-full justify-between max-w-full px-5 md:px-0 min-h-[auto] min-w-[auto] gap-y-2 w-full mx-auto py-6 md:gap-x-5 md:flex-nowrap md:max-w-6xl md:gap-y-5">
-          <div className="relative box-border caret-transparent gap-x-2 max-w-full min-h-[auto] gap-y-2 text-center w-full md:w-[460px] md:gap-x-5 md:gap-y-5 md:text-start">
-            <h3 className="text-neutral-900 text-2xl font-medium box-border caret-transparent leading-[1.25] text-center font-aalto_sans_pro md:text-[32px] md:text-start">
-              Associado e registrado nas principais entidades do setor:
-            </h3>
-          </div>
-          <div className="relative box-border caret-transparent gap-x-2 max-w-full min-h-[auto] gap-y-2 text-center w-full md:w-[590px] md:gap-x-5 md:gap-y-5">
-            <img
-              src="/images/banner.jpg"
-              alt=""
-              className="aspect-[auto_903_/_190] box-border caret-transparent inline-block max-w-full w-full md:w-[903px]"
-            />
           </div>
         </div>
       </div>

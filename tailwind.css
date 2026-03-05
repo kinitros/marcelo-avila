@@ -4,39 +4,14 @@
 @font-face {
   /* @FONTWARNING[{"type":"restricted","family":"Aalto Sans Pro","weight":"500","style":"normal","allowsCrossOrigin":false}] */
   font-family: 'Aalto Sans Pro';
-  src: url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Medium.woff2") format("woff2"), url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Medium.woff") format("woff"), url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Medium.ttf") format("truetype");
+  src: url("/fonts/AaltoSansPro-Medium.woff2") format("woff2"), url("/fonts/AaltoSansPro-Medium.woff") format("woff"), url("/fonts/AaltoSansPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  /* @FONTWARNING[{"type":"restricted","family":"Aalto Sans Pro","weight":"normal","style":"normal","allowsCrossOrigin":false}] */
   font-family: 'Aalto Sans Pro';
-  src: url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Regular.woff2") format("woff2"), url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Regular.woff") format("woff"), url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  /* @FONTWARNING[{"type":"restricted","family":"swiper-icons","weight":"400","style":"normal","allowsCrossOrigin":false}] */
-  font-family: 'swiper-icons';
-  src: url("engine://font-1772559548237-domwahbkm");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  /* @FONTWARNING[{"type":"restricted","family":"Aalto Sans Pro","weight":"500","style":"normal","allowsCrossOrigin":false}] */
-  font-family: 'Aalto Sans Pro';
-  src: url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Medium.woff2") format("woff2"), url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Medium.woff") format("woff"), url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  /* @FONTWARNING[{"type":"restricted","family":"Aalto Sans Pro","weight":"normal","style":"normal","allowsCrossOrigin":false}] */
-  font-family: 'Aalto Sans Pro';
-  src: url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Regular.woff2") format("woff2"), url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Regular.woff") format("woff"), url("https://empregga.com.br/wp-content/uploads/2025/11/AaltoSansPro-Regular.ttf") format("truetype");
+  src: url("/fonts/AaltoSansPro-Regular.woff2") format("woff2"), url("/fonts/AaltoSansPro-Regular.woff") format("woff"), url("/fonts/AaltoSansPro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

@@ -5,7 +5,7 @@ export const HeroText = () => {
         <div className="box-border caret-transparent">
           <div className="box-border caret-transparent w-full">
             <h3 className="text-neutral-900 text-2xl font-medium box-border caret-transparent leading-[28.8px] mt-2 mb-[5px] font-aalto_sans_pro md:text-[32px] md:leading-[38.4px]">
-              <span className="text-blue-700 text-xs box-border caret-transparent block leading-[19.6px] mb-4 font-aalto_sans_pro">
+              <span className="text-blue-700 text-xs box-border caret-transparent block leading-[19.6px] mb-1 font-aalto_sans_pro">
                 ÁVILA NASCIMENTO ADVOCACIA
               </span>
               Proteja seus direitos com quem tem{" "}
@@ -24,7 +24,9 @@ export const HeroText = () => {
       </div>
       <div className="relative self-center box-border caret-transparent gap-x-2.5 max-w-full min-h-[auto] gap-y-2.5 w-full md:gap-x-5 md:gap-y-5 md:w-auto">
         <a
-          href="#contato"
+          href="https://wa.me/5521972728787?text=Olá! Gostaria de falar com um especialista do Ávila Nascimento Advocacia."
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-white text-lg font-medium bg-blue-700 box-border caret-transparent inline-block fill-white leading-[18px] text-center w-full px-5 py-3.5 rounded-[100px] font-aalto_sans_pro md:w-auto md:px-[42px] md:py-4"
         >
           <span className="box-border caret-transparent gap-x-[5px] flex fill-white justify-center gap-y-[5px]">

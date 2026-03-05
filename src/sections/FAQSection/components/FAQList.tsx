@@ -160,7 +160,7 @@ export const FAQList = () => {
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
               <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
-                Você pode entrar em contato pelo telefone +55 (21) 3802-3838, pelo e-mail info@avilanascimento.adv.br ou pelas nossas redes sociais. Também pode agendar uma consulta diretamente pelo nosso WhatsApp.
+                Você pode entrar em contato pelo WhatsApp +55 (21) 97272-8787, pelo e-mail info@avilanascimento.adv.br ou pelas nossas redes sociais. Também pode agendar uma consulta diretamente pelo nosso WhatsApp.
               </p>
             </div>
           </div>
