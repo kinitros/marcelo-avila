@@ -25,7 +25,7 @@ export const FAQSection = () => {
                     Não encontrou o que gostaria?{" "}
                   </span>
                 </h3>
-                <p className="text-neutral-500 box-border caret-transparent font-montserrat">
+                <p className="text-neutral-700 box-border caret-transparent font-montserrat">
                   Fale com nosso time.{" "}
                 </p>
               </div>

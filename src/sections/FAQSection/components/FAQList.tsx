@@ -19,7 +19,7 @@ export const FAQList = () => {
             className="relative box-border caret-transparent gap-x-5 flex flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5">
-              <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
+              <p className="text-neutral-700 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
                 Atuamos em duas áreas principais: Propriedade Intelectual (registro de marcas no INPI, direitos autorais e patentes) e Direito à Saúde (ações contra planos de saúde e defesa do consumidor).
               </p>
             </div>
@@ -39,7 +39,7 @@ export const FAQList = () => {
             className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-              <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
+              <p className="text-neutral-700 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
                 O processo de registro de marca no INPI pode levar de 6 a 12 meses, dependendo da complexidade do caso. Realizamos a pesquisa de viabilidade, protocolo do pedido e acompanhamento até a concessão definitiva.
               </p>
             </div>
@@ -59,7 +59,7 @@ export const FAQList = () => {
             className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-              <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
+              <p className="text-neutral-700 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
                 Na primeira consulta, analisamos o seu caso gratuitamente, identificamos as melhores estratégias jurídicas e apresentamos um plano de ação personalizado para proteger seus direitos.
               </p>
             </div>
@@ -79,7 +79,7 @@ export const FAQList = () => {
             className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-              <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
+              <p className="text-neutral-700 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
                 Um escritório boutique oferece atendimento personalizado e especializado, com foco em áreas específicas do Direito. Isso garante maior atenção ao seu caso e soluções mais eficientes.
               </p>
             </div>
@@ -99,7 +99,7 @@ export const FAQList = () => {
             className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-              <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
+              <p className="text-neutral-700 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
                 Se seu plano de saúde negou indevidamente um procedimento, você tem direito de recorrer judicialmente. Entre em contato conosco para uma análise do seu caso e orientação sobre os próximos passos.
               </p>
             </div>
@@ -119,7 +119,7 @@ export const FAQList = () => {
             className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-              <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
+              <p className="text-neutral-700 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
                 Sim, atendemos clientes em todo o Brasil. Nosso escritório fica na Barra da Tijuca, Rio de Janeiro, mas realizamos consultas presenciais e remotas para atender clientes de qualquer região.
               </p>
             </div>
@@ -139,7 +139,7 @@ export const FAQList = () => {
             className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-              <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
+              <p className="text-neutral-700 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
                 Nosso horário de atendimento é de segunda a domingo, das 09:00 às 18:00. Estamos localizados na Av. José Silva de Azevedo Neto, 200 – Bloco V Cobertura 419, Barra da Tijuca, Rio de Janeiro, RJ.
               </p>
             </div>
@@ -159,7 +159,7 @@ export const FAQList = () => {
             className="relative box-border caret-transparent gap-x-5 hidden flex-col flex-wrap gap-y-5 w-full p-4 md:flex-nowrap"
           >
             <div className="relative box-border caret-transparent gap-x-5 max-w-full gap-y-5">
-              <p className="text-neutral-500 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
+              <p className="text-neutral-700 text-lg font-light box-border caret-transparent leading-[27px] font-aalto_sans_pro">
                 Você pode entrar em contato pelo WhatsApp +55 (21) 97272-8787, pelo e-mail info@avilanascimento.adv.br ou pelas nossas redes sociais. Também pode agendar uma consulta diretamente pelo nosso WhatsApp.
               </p>
             </div>

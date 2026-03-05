@@ -17,7 +17,7 @@ export const ForWhoSection = () => {
                 </span>
                 com experiência e dedicação em cada caso.
               </h3>
-              <p className="text-stone-500 text-base box-border caret-transparent leading-[25.2px] font-aalto_sans_pro md:text-xl md:leading-[30px]">
+              <p className="text-stone-700 text-base box-border caret-transparent leading-[25.2px] font-aalto_sans_pro md:text-xl md:leading-[30px]">
                 Conte com nossos especialistas para:
               </p>
             </div>

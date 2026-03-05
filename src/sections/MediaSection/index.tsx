@@ -15,7 +15,7 @@ export const MediaSection = () => {
                 </span>
                 Registro de Marcas no INPI com segurança e agilidade
               </h3>
-              <p className=”text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
+              <p className=”text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
                 “Protegemos sua marca com o registro no INPI, garantindo seus direitos autorais e patentes com mais de 28 anos de experiência em Propriedade Intelectual.”
               </p>
             </div>
@@ -42,7 +42,7 @@ export const MediaSection = () => {
                 </span>
                 Ações contra planos de saúde e defesa do consumidor
               </h3>
-              <p className=”text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
+              <p className=”text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
                 “Lutamos pelos seus direitos contra negativas indevidas de planos de saúde, garantindo o acesso a tratamentos e procedimentos médicos que você tem direito por lei.”
               </p>
             </div>
@@ -69,7 +69,7 @@ export const MediaSection = () => {
                 </span>
                 Proteção de obras intelectuais e criações artísticas
               </h3>
-              <p className=”text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
+              <p className=”text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
                 “Garantimos a proteção dos seus direitos autorais, obras intelectuais e criações artísticas com assessoria jurídica especializada e registro adequado.”
               </p>
             </div>
@@ -96,7 +96,7 @@ export const MediaSection = () => {
                 </span>
                 Registro e proteção de patentes e invenções
               </h3>
-              <p className=”text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
+              <p className=”text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
                 “Auxiliamos inventores e empresas no registro de patentes junto ao INPI, protegendo suas inovações tecnológicas e garantindo exclusividade no mercado.”
               </p>
             </div>

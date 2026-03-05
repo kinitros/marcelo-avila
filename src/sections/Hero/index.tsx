@@ -38,7 +38,7 @@ export const Hero = () => {
                     +28 Anos{" "}
                   </span>
                 </h3>
-                <p className="text-neutral-500 text-base box-border caret-transparent font-montserrat">
+                <p className="text-neutral-700 text-base box-border caret-transparent font-montserrat">
                   em Propriedade Intelectual{" "}
                 </p>
               </div>
@@ -70,7 +70,7 @@ export const Hero = () => {
                 <h3 className="text-neutral-950 text-xl md:text-xl font-medium box-border caret-transparent leading-[1.35] font-aalto_sans_pro">
                   <span className="box-border caret-transparent">+21 Anos </span>
                 </h3>
-                <p className="text-neutral-500 text-base box-border caret-transparent font-montserrat">
+                <p className="text-neutral-700 text-base box-border caret-transparent font-montserrat">
                   de advocacia{" "}
                 </p>
               </div>
@@ -102,7 +102,7 @@ export const Hero = () => {
                 <h3 className="text-neutral-950 text-xl md:text-xl font-medium box-border caret-transparent leading-[1.35] font-aalto_sans_pro">
                   <span className="box-border caret-transparent">Registro </span>
                 </h3>
-                <p className="text-neutral-500 text-base box-border caret-transparent font-montserrat">
+                <p className="text-neutral-700 text-base box-border caret-transparent font-montserrat">
                   de Marcas no INPI{" "}
                 </p>
               </div>
@@ -134,7 +134,7 @@ export const Hero = () => {
                 <h3 className="text-neutral-950 text-xl md:text-xl font-medium box-border caret-transparent leading-[1.35] font-aalto_sans_pro">
                   <span className="box-border caret-transparent">Direito </span>
                 </h3>
-                <p className="text-neutral-500 text-base box-border caret-transparent font-montserrat">
+                <p className="text-neutral-700 text-base box-border caret-transparent font-montserrat">
                   à Saúde{" "}
                 </p>
               </div>
@@ -902,7 +902,7 @@ export const Hero = () => {
                       com acompanhamento jurídico do início ao certificado.
                     </span>
                   </h3>
-                  <p className="text-stone-500 text-base box-border caret-transparent leading-[1.5] font-aalto_sans_pro md:text-lg md:leading-[1.6]">
+                  <p className="text-stone-700 text-base box-border caret-transparent leading-[1.5] font-aalto_sans_pro md:text-lg md:leading-[1.6]">
                     Somos um dos poucos escritórios do Brasil que une a atuação como Agente de Propriedade Industrial registrado no INPI desde 1998 com advocacia especializada. Isso significa registro com segurança jurídica, não apenas burocracia.
                   </p>
                 </div>
@@ -926,7 +926,7 @@ export const Hero = () => {
                       </span>
                       {" "}com experiência e dedicação em cada caso.
                     </h3>
-                    <p className="text-stone-500 text-lg box-border caret-transparent leading-[25.2px] font-aalto_sans_pro md:text-xl md:leading-[30px]">
+                    <p className="text-stone-700 text-lg box-border caret-transparent leading-[25.2px] font-aalto_sans_pro md:text-xl md:leading-[30px]">
                       Conte com nossos especialistas para:
                     </p>
                   </div>
@@ -1118,7 +1118,7 @@ export const Hero = () => {
                       O2 Corporate &amp; Offices
                     </span>
                   </h3>
-                  <p className="text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]">
+                  <p className="text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]">
                     Nosso escritório está localizado no O2 Corporate &amp; Offices,
                     um dos empreendimentos corporativos mais sofisticados da Barra
                     da Tijuca.
@@ -1147,7 +1147,7 @@ export const Hero = () => {
               <p className="text-neutral-800 text-sm font-medium box-border caret-transparent leading-[20px] font-aalto_sans_pro mt-3">
                 O2 Corporate &amp; Offices
               </p>
-              <p className="text-stone-500 text-sm box-border caret-transparent leading-[20px] font-montserrat mt-1">
+              <p className="text-stone-700 text-sm box-border caret-transparent leading-[20px] font-montserrat mt-1">
                 Av. das Américas, 12.551 — Barra da Tijuca, Rio de Janeiro – RJ
               </p>
               <div className="mt-5">
@@ -1189,7 +1189,7 @@ export const Hero = () => {
                     <h3 className="text-neutral-950 text-xl md:text-2xl font-medium box-border caret-transparent gap-x-2.5 flex flex-col leading-[1.3] gap-y-2.5 mt-2 mb-2.5 font-aalto_sans_pro after:accent-auto after:bg-blue-700 after:box-border after:caret-transparent after:text-neutral-950 after:block after:text-2xl after:not-italic after:normal-nums after:font-medium after:h-0.5 after:tracking-[normal] after:leading-[28.8px] after:list-outside after:list-disc after:min-h-[auto] after:min-w-[auto] after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:w-5 after:border-separate after:font-aalto_sans_pro">
                       Propriedade Intelectual
                     </h3>
-                    <p className="text-neutral-500 box-border caret-transparent font-montserrat">
+                    <p className="text-neutral-700 box-border caret-transparent font-montserrat">
                       Registro de marcas, patentes e direitos autorais com
                       acompanhamento especializado junto ao INPI.
                     </p>
@@ -1232,7 +1232,7 @@ export const Hero = () => {
                     <h3 className="text-neutral-950 text-xl md:text-2xl font-medium box-border caret-transparent gap-x-2.5 flex flex-col leading-[1.3] gap-y-2.5 mt-2 mb-2.5 font-aalto_sans_pro after:accent-auto after:bg-blue-700 after:box-border after:caret-transparent after:text-neutral-950 after:block after:text-2xl after:not-italic after:normal-nums after:font-medium after:h-0.5 after:tracking-[normal] after:leading-[28.8px] after:list-outside after:list-disc after:min-h-[auto] after:min-w-[auto] after:pointer-events-auto after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:w-5 after:border-separate after:font-aalto_sans_pro">
                       Direito à Saúde
                     </h3>
-                    <p className="text-neutral-500 box-border caret-transparent font-montserrat">
+                    <p className="text-neutral-700 box-border caret-transparent font-montserrat">
                       Ações contra planos de saúde e defesa dos seus
                       direitos como consumidor de serviços de saúde.
                     </p>
@@ -1275,7 +1275,7 @@ export const Hero = () => {
                     </span>
                     Ficou com alguma dúvida?
                   </h3>
-                  <p className="text-stone-500 text-base box-border caret-transparent leading-6 font-montserrat md:text-xl md:leading-[30px]">
+                  <p className="text-stone-700 text-base box-border caret-transparent leading-6 font-montserrat md:text-xl md:leading-[30px]">
                     Confira nossas respostas com as perguntas mais frequentes
                     sobre nossos serviços jurídicos.{" "}
                   </p>
@@ -1300,7 +1300,7 @@ export const Hero = () => {
                         Não encontrou o que gostaria?{" "}
                       </span>
                     </h3>
-                    <p className="text-neutral-500 box-border caret-transparent font-montserrat">
+                    <p className="text-neutral-700 box-border caret-transparent font-montserrat">
                       Fale com nosso time.{" "}
                     </p>
                   </div>
@@ -1356,7 +1356,7 @@ export const Hero = () => {
                   </button>
                   <div className="overflow-hidden transition-all duration-300 ease-in-out" style={{ maxHeight: '0px', opacity: 0 }}>
                     <div className="bg-white border border-gray-100 rounded-2xl mt-1.5 px-5 py-4 shadow-[0_1px_3px_rgba(0,0,0,0.04)] md:px-6">
-                      <p className="text-stone-500 text-sm font-montserrat leading-relaxed md:text-base">{item.a}</p>
+                      <p className="text-stone-700 text-sm font-montserrat leading-relaxed md:text-base">{item.a}</p>
                     </div>
                   </div>
                 </div>
@@ -1381,7 +1381,7 @@ export const Hero = () => {
                       Não encontrou o que gostaria?{" "}
                     </span>
                   </h3>
-                  <p className="text-neutral-500 box-border caret-transparent font-montserrat">
+                  <p className="text-neutral-700 box-border caret-transparent font-montserrat">
                     Fale com nosso time.{" "}
                   </p>
                 </div>

@@ -7,7 +7,7 @@ export const WhatIsSection = () => {
         {/* Seção institucional */}
         <div className="relative self-center box-border caret-transparent gap-x-5 flex flex-col min-h-[auto] gap-y-5 w-full mb-12 md:mb-20">
           <div className="text-center mb-8">
-            <span className="text-stone-500 text-sm font-medium uppercase tracking-wider font-aalto_sans_pro">
+            <span className="text-stone-700 text-sm font-medium uppercase tracking-wider font-aalto_sans_pro">
               Escritório de advocacia
             </span>
             <h2 className="text-blue-700 text-2xl font-medium mt-2 font-aalto_sans_pro md:text-[32px] md:leading-[38.4px]">
@@ -92,7 +92,7 @@ export const WhatIsSection = () => {
                   </div>
                   <div className="text-center">
                     <span className="text-neutral-900 text-2xl font-bold font-aalto_sans_pro">abpi</span>
-                    <p className="text-stone-500 text-xs leading-4 font-aalto_sans_pro mt-1">
+                    <p className="text-stone-700 text-xs leading-4 font-aalto_sans_pro mt-1">
                       ASSOCIAÇÃO<br />BRASILEIRA DA<br />PROPRIEDADE<br />INTELECTUAL
                     </p>
                   </div>

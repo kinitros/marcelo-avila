@@ -39,10 +39,10 @@ export const FooterLinks = () => {
           </p>
         </div>
         <div className="relative box-border caret-transparent gap-x-4 max-w-full min-h-[auto] gap-y-4 text-left md:text-start">
-          <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro">
+          <p className="text-stone-700 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro">
             Seg - Dom: 09:00 - 18:00
           </p>
-          <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro mt-1">
+          <p className="text-stone-700 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro mt-1">
             Av. José Silva de Azevedo Neto, 200<br />
             Bloco V Cobertura 419, Barra da Tijuca<br />
             Rio de Janeiro - RJ, 22775-056

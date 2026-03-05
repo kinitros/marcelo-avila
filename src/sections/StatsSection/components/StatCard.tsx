@@ -46,7 +46,7 @@ export const StatCard = (props: StatCardProps) => {
                 {props.title}
               </span>
             </h3>
-            <p className="text-neutral-500 box-border caret-transparent font-montserrat">
+            <p className="text-neutral-700 box-border caret-transparent font-montserrat">
               {props.description}
             </p>
           </div>

@@ -13,7 +13,7 @@ export const CompaniesLogos = () => {
           </div>
           <div>
             <span className="text-stone-300 text-sm font-medium font-aalto_sans_pro block">OAB-RJ</span>
-            <span className="text-stone-500 text-xs font-aalto_sans_pro">nº 128.829</span>
+            <span className="text-stone-700 text-xs font-aalto_sans_pro">nº 128.829</span>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -22,7 +22,7 @@ export const CompaniesLogos = () => {
           </div>
           <div>
             <span className="text-stone-300 text-sm font-medium font-aalto_sans_pro block">INPI</span>
-            <span className="text-stone-500 text-xs font-aalto_sans_pro">Matrícula 0636</span>
+            <span className="text-stone-700 text-xs font-aalto_sans_pro">Matrícula 0636</span>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -31,7 +31,7 @@ export const CompaniesLogos = () => {
           </div>
           <div>
             <span className="text-stone-300 text-sm font-medium font-aalto_sans_pro block">ABPI</span>
-            <span className="text-stone-500 text-xs font-aalto_sans_pro">nº 43657</span>
+            <span className="text-stone-700 text-xs font-aalto_sans_pro">nº 43657</span>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -40,7 +40,7 @@ export const CompaniesLogos = () => {
           </div>
           <div>
             <span className="text-stone-300 text-sm font-medium font-aalto_sans_pro block">ABAPI</span>
-            <span className="text-stone-500 text-xs font-aalto_sans_pro">nº 0522</span>
+            <span className="text-stone-700 text-xs font-aalto_sans_pro">nº 0522</span>
           </div>
         </div>
       </div>

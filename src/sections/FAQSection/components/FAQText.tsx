@@ -10,7 +10,7 @@ export const FAQText = () => {
               </span>
               Ficou com alguma dúvida?
             </h3>
-            <p className="text-stone-500 text-base box-border caret-transparent leading-6 font-montserrat md:text-xl md:leading-[30px]">
+            <p className="text-stone-700 text-base box-border caret-transparent leading-6 font-montserrat md:text-xl md:leading-[30px]">
               Confira nossas respostas com as perguntas mais frequentes sobre o
               escritório Ávila Nascimento.{" "}
             </p>
@@ -35,7 +35,7 @@ export const FAQText = () => {
                   Não encontrou o que gostaria?{" "}
                 </span>
               </h3>
-              <p className="text-neutral-500 box-border caret-transparent font-montserrat">
+              <p className="text-neutral-700 box-border caret-transparent font-montserrat">
                 Fale com nosso time.{" "}
               </p>
             </div>

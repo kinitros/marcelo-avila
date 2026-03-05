@@ -29,7 +29,7 @@ export const StatsSection = () => {
               <h3 className="text-neutral-950 text-lg md:text-xl font-medium box-border caret-transparent leading-[1.35] font-aalto_sans_pro">
                 <span className="box-border caret-transparent">+6.000 </span>
               </h3>
-              <p className="text-neutral-500 box-border caret-transparent font-montserrat">
+              <p className="text-neutral-700 box-border caret-transparent font-montserrat">
                 profissionais contratados{" "}
               </p>
             </div>

@@ -14,7 +14,7 @@ export const HeroText = () => {
                 mais de 28 anos de experiência.
               </span>
             </h3>
-            <p className="text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-[22px] md:leading-[33px]">
+            <p className="text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-[22px] md:leading-[33px]">
               Escritório boutique especializado em Propriedade Intelectual e
               Direito à Saúde. Registro de Marcas no INPI e Ações contra
               Planos de Saúde.

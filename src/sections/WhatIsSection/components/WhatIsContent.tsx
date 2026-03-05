@@ -35,7 +35,7 @@ export const WhatIsContent = (props: WhatIsContentProps) => {
             </span>{" "}
             com excelência e dedicação
           </h3>
-          <p className="text-stone-500 text-base box-border caret-transparent leading-[25.2px] font-aalto_sans_pro md:text-xl md:leading-[30px]">
+          <p className="text-stone-700 text-base box-border caret-transparent leading-[25.2px] font-aalto_sans_pro md:text-xl md:leading-[30px]">
             {props.description}
           </p>
         </div>

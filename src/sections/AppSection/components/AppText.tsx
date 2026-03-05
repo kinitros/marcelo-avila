@@ -11,7 +11,7 @@ export const AppText = () => {
               </span>
               Transparência em Cada Etapa
             </h3>
-            <p className="text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]">
+            <p className="text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]">
               Você acompanha tudo que está acontecendo no seu processo em tempo
               real, com total transparência.{" "}
               <br className="text-base box-border caret-transparent leading-[22.4px] md:text-lg md:leading-[27px]" />

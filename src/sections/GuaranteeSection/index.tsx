@@ -73,7 +73,7 @@ export const GuaranteeSection = () => {
                         Proteja sua marca com registro no INPI e assessoria
                         especializada
                       </h3>
-                      <p className=”text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
+                      <p className=”text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
                         “Realizamos todo o processo de registro de marcas no INPI, desde a pesquisa de viabilidade até a concessão definitiva, com acompanhamento completo.”
                       </p>
                     </div>
@@ -100,7 +100,7 @@ export const GuaranteeSection = () => {
                         </span>
                         Ações contra negativas indevidas de planos de saúde
                       </h3>
-                      <p className=”text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
+                      <p className=”text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
                         “Atuamos na defesa dos seus direitos contra negativas abusivas de planos de saúde, garantindo acesso a tratamentos, cirurgias e procedimentos médicos necessários.”
                       </p>
                     </div>
@@ -128,7 +128,7 @@ export const GuaranteeSection = () => {
                         Proteção completa dos seus direitos autorais e
                         criações intelectuais
                       </h3>
-                      <p className=”text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
+                      <p className=”text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
                         “Oferecemos assessoria jurídica completa em direitos autorais, protegendo suas criações intelectuais, obras artísticas e propriedade intelectual.”
                       </p>
                     </div>
@@ -155,7 +155,7 @@ export const GuaranteeSection = () => {
                         </span>
                         Assessoria preventiva para empresas e pessoas físicas
                       </h3>
-                      <p className=”text-stone-500 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
+                      <p className=”text-stone-700 text-base box-border caret-transparent leading-[22.4px] font-montserrat md:text-lg md:leading-[27px]”>
                         “Prestamos consultoria jurídica preventiva em propriedade intelectual e direito à saúde, evitando litígios e protegendo seus interesses de forma estratégica.”
                       </p>
                     </div>

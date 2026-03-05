@@ -7,18 +7,18 @@ export const FooterApp = () => {
         </p>
       </div>
       <div className="relative box-border caret-transparent gap-x-4 max-w-full min-h-[auto] gap-y-4 text-center md:text-start">
-        <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro">
+        <p className="text-stone-700 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro">
           Seg - Dom: 09:00 - 18:00
         </p>
-        <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro mt-2">
-          <a href="https://wa.me/5521972728787?text=Olá! Gostaria de mais informações." className="text-stone-500 hover:text-blue-700 transition-colors">+55 (21) 97272-8787</a>
+        <p className="text-stone-700 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro mt-2">
+          <a href="https://wa.me/5521972728787?text=Olá! Gostaria de mais informações." className="text-stone-700 hover:text-blue-700 transition-colors">+55 (21) 97272-8787</a>
         </p>
-        <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro mt-1">
+        <p className="text-stone-700 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro mt-1">
           info@avilanascimento.adv.br
         </p>
       </div>
       <div className="relative box-border caret-transparent gap-x-4 max-w-full min-h-[auto] gap-y-4 text-center md:text-start">
-        <p className="text-stone-500 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro">
+        <p className="text-stone-700 text-sm box-border caret-transparent leading-5 font-aalto_sans_pro">
           Av. José Silva de Azevedo Neto, 200<br />Bloco V Cobertura 419, Barra da Tijuca<br />Rio de Janeiro - RJ
         </p>
       </div>
