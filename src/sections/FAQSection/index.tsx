@@ -13,7 +13,7 @@ export const FAQSection = () => {
               <div className="box-border caret-transparent shrink-0 leading-[0px] min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
                 <span className="text-sky-300 text-2xl box-border caret-transparent inline-block fill-sky-300 leading-6 text-center">
                   <img
-                    src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-36.svg"
+                    src="/icons/icon-36.svg"
                     alt="Icon"
                     className="relative box-border caret-transparent h-6 align-baseline w-6"
                   />

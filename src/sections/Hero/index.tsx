@@ -26,7 +26,7 @@ export const Hero = () => {
               <div className="box-border caret-transparent shrink-0 leading-[0px] min-h-[auto] min-w-[auto]">
                 <span className="text-sky-300 text-2xl box-border caret-transparent inline-block fill-sky-300 leading-6 text-center">
                   <img
-                    src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-12.svg"
+                    src="/icons/icon-12.svg"
                     alt="Icon"
                     className="relative box-border caret-transparent h-8 align-baseline w-8 md:h-6 md:w-6"
                   />
@@ -48,7 +48,7 @@ export const Hero = () => {
             <div className="box-border caret-transparent text-center">
               <div className="text-sky-300 text-[134px] box-border caret-transparent inline-block leading-[134px]">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-13.svg"
+                  src="/icons/icon-13.svg"
                   alt="Icon"
                   className="relative box-border caret-transparent h-[134px] align-baseline"
                 />
@@ -60,7 +60,7 @@ export const Hero = () => {
               <div className="box-border caret-transparent shrink-0 leading-[0px] min-h-[auto] min-w-[auto]">
                 <span className="text-sky-300 text-2xl box-border caret-transparent inline-block fill-sky-300 leading-6 text-center">
                   <img
-                    src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-14.svg"
+                    src="/icons/icon-14.svg"
                     alt="Icon"
                     className="relative box-border caret-transparent h-8 align-baseline w-8 md:h-6 md:w-6"
                   />
@@ -80,7 +80,7 @@ export const Hero = () => {
             <div className="box-border caret-transparent text-center">
               <div className="text-sky-300 text-[134px] box-border caret-transparent inline-block leading-[134px]">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-13.svg"
+                  src="/icons/icon-13.svg"
                   alt="Icon"
                   className="relative box-border caret-transparent h-[134px] align-baseline"
                 />
@@ -92,7 +92,7 @@ export const Hero = () => {
               <div className="box-border caret-transparent shrink-0 leading-[0px] min-h-[auto] min-w-[auto]">
                 <span className="text-sky-300 text-2xl box-border caret-transparent inline-block fill-sky-300 leading-6 text-center">
                   <img
-                    src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-15.svg"
+                    src="/icons/icon-15.svg"
                     alt="Icon"
                     className="relative box-border caret-transparent h-8 align-baseline w-8 md:h-6 md:w-6"
                   />
@@ -112,7 +112,7 @@ export const Hero = () => {
             <div className="box-border caret-transparent text-center">
               <div className="text-sky-300 text-[134px] box-border caret-transparent inline-block leading-[134px]">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-13.svg"
+                  src="/icons/icon-13.svg"
                   alt="Icon"
                   className="relative box-border caret-transparent h-[134px] align-baseline"
                 />
@@ -124,7 +124,7 @@ export const Hero = () => {
               <div className="box-border caret-transparent shrink-0 leading-[0px] min-h-[auto] min-w-[auto]">
                 <span className="text-sky-300 text-2xl box-border caret-transparent inline-block fill-sky-300 leading-6 text-center">
                   <img
-                    src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-15.svg"
+                    src="/icons/icon-15.svg"
                     alt="Icon"
                     className="relative box-border caret-transparent h-8 align-baseline w-8 md:h-6 md:w-6"
                   />
@@ -942,7 +942,7 @@ export const Hero = () => {
                     >
                       <span className="relative box-border caret-transparent flex min-h-[auto] min-w-[auto] top-0">
                         <img
-                          src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-17.svg"
+                          src="/icons/icon-17.svg"
                           alt="Icon"
                           className="box-border caret-transparent h-[25px] align-baseline w-[25px] mr-[6.25px]"
                         />
@@ -975,7 +975,7 @@ export const Hero = () => {
                     >
                       <span className="relative box-border caret-transparent flex min-h-[auto] min-w-[auto] top-0">
                         <img
-                          src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-18.svg"
+                          src="/icons/icon-18.svg"
                           alt="Icon"
                           className="box-border caret-transparent h-[25px] align-baseline w-[25px] mr-[6.25px]"
                         />
@@ -1004,7 +1004,7 @@ export const Hero = () => {
                     >
                       <span className="relative box-border caret-transparent flex min-h-[auto] min-w-[auto] top-0">
                         <img
-                          src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-19.svg"
+                          src="/icons/icon-19.svg"
                           alt="Icon"
                           className="box-border caret-transparent h-[25px] align-baseline w-[25px] mr-[6.25px]"
                         />
@@ -1204,7 +1204,7 @@ export const Hero = () => {
                   <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 flex-row-reverse justify-center gap-y-[5px]">
                     <span className="items-center box-border caret-transparent flex fill-blue-700 min-h-[auto] min-w-[auto]">
                       <img
-                        src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-26.svg"
+                        src="/icons/icon-26.svg"
                         alt="Icon"
                         className="box-border caret-transparent align-baseline w-[18px]"
                       />
@@ -1247,7 +1247,7 @@ export const Hero = () => {
                   <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 flex-row-reverse justify-center gap-y-[5px]">
                     <span className="items-center box-border caret-transparent flex fill-blue-700 min-h-[auto] min-w-[auto]">
                       <img
-                        src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-26.svg"
+                        src="/icons/icon-26.svg"
                         alt="Icon"
                         className="box-border caret-transparent align-baseline w-[18px]"
                       />
@@ -1288,7 +1288,7 @@ export const Hero = () => {
                   <div className="box-border caret-transparent shrink-0 leading-[0px] min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
                     <span className="text-sky-300 text-2xl box-border caret-transparent inline-block fill-sky-300 leading-6 text-center">
                       <img
-                        src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-36.svg"
+                        src="/icons/icon-36.svg"
                         alt="Icon"
                         className="relative box-border caret-transparent h-6 align-baseline w-6"
                       />
@@ -1369,7 +1369,7 @@ export const Hero = () => {
                 <div className="box-border caret-transparent shrink-0 leading-[0px] min-h-[auto] min-w-[auto] md:min-h-0 md:min-w-0">
                   <span className="text-sky-300 text-2xl box-border caret-transparent inline-block fill-sky-300 leading-6 text-center">
                     <img
-                      src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-36.svg"
+                      src="/icons/icon-36.svg"
                       alt="Icon"
                       className="relative box-border caret-transparent h-6 align-baseline w-6"
                     />

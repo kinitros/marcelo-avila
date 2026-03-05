@@ -8,7 +8,7 @@ export const CompaniesSection = () => {
           <div className="box-border caret-transparent text-center">
             <div className="text-sky-300 text-[94px] box-border caret-transparent inline-block leading-[94px]">
               <img
-                src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-16.svg"
+                src="/icons/icon-16.svg"
                 alt="Icon"
                 className="relative box-border caret-transparent h-[94px] align-baseline"
               />

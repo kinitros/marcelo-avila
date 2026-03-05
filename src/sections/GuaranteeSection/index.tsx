@@ -7,7 +7,7 @@ export const GuaranteeSection = () => {
             <div className="box-border caret-transparent shrink-0 leading-[0px] min-h-[auto] min-w-[auto] text-center md:text-start">
               <span className="text-sky-300 text-[197px] box-border caret-transparent inline-block fill-sky-300 leading-[197px] text-center">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-25.svg"
+                  src="/icons/icon-25.svg"
                   alt="Icon"
                   className="relative box-border caret-transparent h-[197px] align-baseline w-[197px]"
                 />

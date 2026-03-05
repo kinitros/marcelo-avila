@@ -13,7 +13,7 @@ export const AgentCTA = () => {
           <div className="box-border caret-transparent text-center">
             <div className="text-sky-300 text-[42px] box-border caret-transparent inline-block leading-[42px] md:text-[56px] md:leading-[56px]">
               <img
-                src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-34.svg"
+                src="/icons/icon-34.svg"
                 alt="Icon"
                 className="relative text-[42px] box-border caret-transparent h-[42px] leading-[42px] align-baseline md:text-[56px] md:h-14 md:leading-[56px]"
               />
@@ -43,7 +43,7 @@ export const AgentCTA = () => {
             <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 flex-row-reverse justify-center gap-y-[5px]">
               <span className="items-center box-border caret-transparent flex fill-blue-700 min-h-[auto] min-w-[auto]">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-26.svg"
+                  src="/icons/icon-26.svg"
                   alt="Icon"
                   className="box-border caret-transparent align-baseline w-[18px]"
                 />

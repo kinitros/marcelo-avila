@@ -24,7 +24,7 @@ export const VideoSection = () => {
               <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 flex-row-reverse justify-center gap-y-[5px]">
                 <span className="items-center box-border caret-transparent flex fill-blue-700 min-h-[auto] min-w-[auto]">
                   <img
-                    src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-26.svg"
+                    src="/icons/icon-26.svg"
                     alt="Icon"
                     className="box-border caret-transparent align-baseline w-[18px]"
                   />
@@ -46,7 +46,7 @@ export const VideoSection = () => {
                 className="absolute box-border caret-transparent translate-x-[-50.0%] translate-y-[-50.0%] left-[88%] top-[80%]"
               >
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-23.svg"
+                  src="/icons/icon-23.svg"
                   alt="Icon"
                   className="box-border caret-transparent inline h-[115px] opacity-80 align-baseline w-[115px]"
                 />

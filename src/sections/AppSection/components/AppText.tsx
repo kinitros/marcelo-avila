@@ -31,7 +31,7 @@ export const AppText = () => {
           <li className="relative items-start box-border caret-transparent gap-x-2.5 flex flex-col justify-start min-h-[auto] min-w-[auto] gap-y-2.5 w-[34%] before:accent-auto before:bg-zinc-300 before:box-border before:caret-transparent before:text-zinc-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-px before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:right-[calc(100%_-_60px)] before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[120%] before:z-[-1] before:border-separate before:-left-2.5 before:top-5 before:font-apple_system">
             <span className="relative bg-zinc-50 box-border caret-transparent flex min-h-[auto] min-w-[auto] border border-zinc-300 p-2.5 rounded-[100px] border-solid top-0">
               <img
-                src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-24.svg"
+                src="/icons/icon-24.svg"
                 alt="Icon"
                 className="box-border caret-transparent h-[21px] align-baseline w-[21px]"
               />
@@ -44,7 +44,7 @@ export const AppText = () => {
           <li className="relative items-start box-border caret-transparent gap-x-2.5 flex flex-col justify-start min-h-[auto] min-w-[auto] gap-y-2.5 w-[34%] before:accent-auto before:bg-zinc-300 before:box-border before:caret-transparent before:text-zinc-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-px before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:right-[calc(100%_-_60px)] before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[120%] before:z-[-1] before:border-separate before:top-5 before:font-apple_system">
             <span className="relative bg-zinc-50 box-border caret-transparent flex min-h-[auto] min-w-[auto] border border-zinc-300 p-2.5 rounded-[100px] border-solid top-0">
               <img
-                src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-24.svg"
+                src="/icons/icon-24.svg"
                 alt="Icon"
                 className="box-border caret-transparent h-[21px] align-baseline w-[21px]"
               />
@@ -56,7 +56,7 @@ export const AppText = () => {
           <li className="relative items-start box-border caret-transparent gap-x-2.5 flex flex-col justify-start min-h-[auto] min-w-[auto] gap-y-2.5 w-[34%] before:accent-auto before:bg-zinc-300 before:box-border before:caret-transparent before:text-zinc-800 before:block before:text-base before:not-italic before:normal-nums before:font-normal before:h-px before:tracking-[normal] before:leading-6 before:list-outside before:list-none before:pointer-events-auto before:absolute before:right-[calc(100%_-_60px)] before:text-start before:no-underline before:indent-[0px] before:normal-case before:visible before:w-[120%] before:z-[-1] before:border-separate before:top-5 before:font-apple_system">
             <span className="relative bg-zinc-50 box-border caret-transparent flex min-h-[auto] min-w-[auto] border border-zinc-300 p-2.5 rounded-[100px] border-solid top-0">
               <img
-                src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-24.svg"
+                src="/icons/icon-24.svg"
                 alt="Icon"
                 className="box-border caret-transparent h-[21px] align-baseline w-[21px]"
               />

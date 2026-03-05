@@ -13,7 +13,7 @@ export const JobsCTA = () => {
           <div className="box-border caret-transparent text-center">
             <div className="text-sky-300 text-[53px] box-border caret-transparent inline-block leading-[53px] md:text-[56px] md:leading-[56px]">
               <img
-                src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-35.svg"
+                src="/icons/icon-35.svg"
                 alt="Icon"
                 className="relative text-[53px] box-border caret-transparent h-[53px] leading-[53px] align-baseline md:text-[56px] md:h-14 md:leading-[56px]"
               />
@@ -43,7 +43,7 @@ export const JobsCTA = () => {
             <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 flex-row-reverse justify-center gap-y-[5px]">
               <span className="items-center box-border caret-transparent flex fill-blue-700 min-h-[auto] min-w-[auto]">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-26.svg"
+                  src="/icons/icon-26.svg"
                   alt="Icon"
                   className="box-border caret-transparent align-baseline w-[18px]"
                 />

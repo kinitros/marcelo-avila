@@ -31,7 +31,7 @@ export const FooterApp = () => {
             >
               <span className="relative box-border caret-transparent flex min-h-[auto] min-w-[auto] top-0">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-41.svg"
+                  src="/icons/icon-41.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-3.5 align-baseline w-3.5 mr-[3.5px]"
                 />

@@ -44,7 +44,7 @@ export const HeroText = () => {
           <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-950 flex-row-reverse justify-center gap-y-[5px]">
             <span className="items-center box-border caret-transparent flex fill-blue-950 min-h-[auto] min-w-[auto]">
               <img
-                src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-8.svg"
+                src="/icons/icon-8.svg"
                 alt="Icon"
                 className="box-border caret-transparent align-baseline w-[18px]"
               />

@@ -14,7 +14,7 @@ export const FooterSocial = () => {
             className="text-gray-500 text-[46px] items-center bg-transparent box-border caret-transparent inline-flex h-[46px] justify-center leading-[46px] w-[46px] rounded-[50%] md:text-[44px] md:h-11 md:leading-[44px] md:w-11"
           >
             <img
-              src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-37.svg"
+              src="/icons/icon-37.svg"
               alt="Icon"
               className="relative text-[46px] box-border caret-transparent h-[46px] leading-[46px] align-baseline w-[46px] md:text-[44px] md:h-11 md:leading-[44px] md:w-11"
             />
@@ -29,7 +29,7 @@ export const FooterSocial = () => {
             className="text-gray-500 text-[46px] items-center bg-transparent box-border caret-transparent inline-flex h-[46px] justify-center leading-[46px] w-[46px] rounded-[50%] md:text-[44px] md:h-11 md:leading-[44px] md:w-11"
           >
             <img
-              src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-38.svg"
+              src="/icons/icon-38.svg"
               alt="Icon"
               className="relative text-[46px] box-border caret-transparent h-[46px] leading-[46px] align-baseline w-[46px] md:text-[44px] md:h-11 md:leading-[44px] md:w-11"
             />
@@ -44,7 +44,7 @@ export const FooterSocial = () => {
             className="text-gray-500 text-[46px] items-center bg-transparent box-border caret-transparent inline-flex h-[46px] justify-center leading-[46px] w-[46px] rounded-[50%] md:text-[44px] md:h-11 md:leading-[44px] md:w-11"
           >
             <img
-              src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-39.svg"
+              src="/icons/icon-39.svg"
               alt="Icon"
               className="relative text-[46px] box-border caret-transparent h-[46px] leading-[46px] align-baseline w-[46px] md:text-[44px] md:h-11 md:leading-[44px] md:w-11"
             />
@@ -59,7 +59,7 @@ export const FooterSocial = () => {
             className="text-gray-500 text-[46px] items-center bg-transparent box-border caret-transparent inline-flex h-[46px] justify-center leading-[46px] w-[46px] rounded-[50%] md:text-[44px] md:h-11 md:leading-[44px] md:w-11"
           >
             <img
-              src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-40.svg"
+              src="/icons/icon-40.svg"
               alt="Icon"
               className="relative text-[46px] box-border caret-transparent h-[46px] leading-[46px] align-baseline w-[46px] md:text-[44px] md:h-11 md:leading-[44px] md:w-11"
             />

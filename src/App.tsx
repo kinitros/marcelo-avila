@@ -20,7 +20,7 @@ export const App = () => {
       </a>
       <div className="box-border caret-transparent"></div>
       <img
-        src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-44.svg"
+        src="/icons/icon-44.svg"
         alt="Icon"
         className="box-border caret-transparent hidden align-baseline"
       />

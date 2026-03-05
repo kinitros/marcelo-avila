@@ -28,7 +28,7 @@ export const ForWhoSection = () => {
             <li className="relative items-center box-border caret-transparent flex pb-[18.5px] after:accent-auto after:box-border after:caret-transparent after:text-zinc-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:w-full after:border-zinc-300 after:border-separate after:border-t after:bottom-0 after:inset-x-0 after:font-apple_system">
               <span className="relative box-border caret-transparent flex min-h-[auto] min-w-[auto] top-0">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-17.svg"
+                  src="/icons/icon-17.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[25px] align-baseline w-[25px] mr-[6.25px]"
                 />
@@ -40,7 +40,7 @@ export const ForWhoSection = () => {
             <li className="relative items-center box-border caret-transparent flex mt-[18.5px] pb-[18.5px] after:accent-auto after:box-border after:caret-transparent after:text-zinc-800 after:block after:text-base after:not-italic after:normal-nums after:font-normal after:tracking-[normal] after:leading-6 after:list-outside after:list-none after:pointer-events-auto after:absolute after:text-start after:no-underline after:indent-[0px] after:normal-case after:visible after:w-full after:border-zinc-300 after:border-separate after:border-t after:bottom-0 after:inset-x-0 after:font-apple_system">
               <span className="relative box-border caret-transparent flex min-h-[auto] min-w-[auto] top-0">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-18.svg"
+                  src="/icons/icon-18.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[25px] align-baseline w-[25px] mr-[6.25px]"
                 />
@@ -52,7 +52,7 @@ export const ForWhoSection = () => {
             <li className="relative items-center box-border caret-transparent flex mt-[18.5px]">
               <span className="relative box-border caret-transparent flex min-h-[auto] min-w-[auto] top-0">
                 <img
-                  src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-19.svg"
+                  src="/icons/icon-19.svg"
                   alt="Icon"
                   className="box-border caret-transparent h-[25px] align-baseline w-[25px] mr-[6.25px]"
                 />
@@ -76,7 +76,7 @@ export const ForWhoSection = () => {
           <div className="box-border caret-transparent text-center">
             <div className="text-sky-300 text-[68px] box-border caret-transparent inline-block leading-[68px] md:text-[94px] md:leading-[94px]">
               <img
-                src="https://c.animaapp.com/mmaw5r5q6lUknB/assets/icon-16.svg"
+                src="/icons/icon-16.svg"
                 alt="Icon"
                 className="relative text-[68px] box-border caret-transparent h-[68px] leading-[68px] align-baseline md:text-[94px] md:h-[94px] md:leading-[94px]"
               />
