@@ -878,7 +878,7 @@ export const Hero = () => {
           Entrar em Contato
         </a>
       </div>
-      <div className="relative box-border caret-transparent flex flex-col max-w-full w-full mx-auto">
+      <div id="escritorio" className="relative box-border caret-transparent flex flex-col max-w-full w-full mx-auto">
         <div className="box-border caret-transparent gap-x-5 flex flex-col grow flex-wrap h-full max-w-full px-5 md:px-0 min-h-[auto] min-w-[auto] gap-y-5 w-full mx-auto py-8 md:flex-nowrap md:max-w-6xl md:py-20">
           <div className="relative self-center bg-white shadow-[rgba(0,0,0,0.07)_0px_2.448px_4.897px_-2.448px,rgba(0,0,0,0.1)_0px_12.241px_18.362px_-3.672px] box-border caret-transparent gap-x-5 flex flex-col-reverse flex-wrap justify-center min-h-[auto] gap-y-5 w-full mb-12 pt-5 pb-5 px-5 md:pt-8 md:pb-8 md:px-8 rounded-3xl md:self-auto md:flex-row md:flex-nowrap md:mb-20">
             <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5 text-center w-full md:w-2/5 overflow-hidden rounded-2xl">
@@ -1099,7 +1099,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="relative box-border caret-transparent flex flex-col max-w-full w-full border-zinc-100 mx-auto mt-10 md:mt-0 border-b border-solid overflow-hidden">
+      <div id="contato" className="relative box-border caret-transparent flex flex-col max-w-full w-full border-zinc-100 mx-auto mt-10 md:mt-0 border-b border-solid overflow-hidden">
         <div className="relative md:absolute right-0 bottom-0 w-full h-[250px] md:h-full md:w-[45%] md:top-0 md:bottom-auto overflow-hidden">
           <img src="/images/O2 Corporate.jpg" alt="O2 Corporate &amp; Offices — Barra da Tijuca" className="absolute inset-0 w-full h-full object-cover" />
         </div>
@@ -1160,7 +1160,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="relative box-border caret-transparent flex flex-col max-w-full w-full mx-auto">
+      <div id="propriedade-intelectual" className="relative box-border caret-transparent flex flex-col max-w-full w-full mx-auto">
         <div className="box-border caret-transparent gap-x-5 flex flex-col grow flex-wrap h-full justify-center max-w-full px-5 md:px-0 min-h-[auto] min-w-[auto] gap-y-5 w-full mx-auto py-10 md:max-w-[min(100%,1216px)] md:py-20">
           <div className="relative box-border caret-transparent max-w-full min-h-[auto] w-full text-center mb-4 md:mb-8">
             <h3 className="text-neutral-900 text-2xl font-medium box-border caret-transparent leading-[1.25] mt-2 mb-[5px] font-aalto_sans_pro md:text-[32px]">
@@ -1217,7 +1217,7 @@ export const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="relative self-center shadow-[rgba(0,0,0,0)_108px_165px_55px_0px,rgba(0,0,0,0.01)_69px_105px_50px_0px,rgba(0,0,0,0.02)_39px_59px_43px_0px,rgba(0,0,0,0.03)_17px_26px_32px_0px,rgba(0,0,0,0.04)_4px_7px_17px_0px] box-border caret-transparent gap-x-0 flex flex-wrap min-h-[auto] gap-y-0 w-full overflow-hidden rounded-xl md:self-auto md:flex-nowrap md:w-[47%]">
+          <div id="direito-saude" className="relative self-center shadow-[rgba(0,0,0,0)_108px_165px_55px_0px,rgba(0,0,0,0.01)_69px_105px_50px_0px,rgba(0,0,0,0.02)_39px_59px_43px_0px,rgba(0,0,0,0.03)_17px_26px_32px_0px,rgba(0,0,0,0.04)_4px_7px_17px_0px] box-border caret-transparent gap-x-0 flex flex-wrap min-h-[auto] gap-y-0 w-full overflow-hidden rounded-xl md:self-auto md:flex-nowrap md:w-[47%]">
             <div className="relative overflow-hidden box-border caret-transparent min-h-[200px] w-full md:min-h-[auto] md:w-[46%]">
               <img
                 src="/images/galeria06.jpg"
