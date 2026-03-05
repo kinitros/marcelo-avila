@@ -10,7 +10,7 @@ export const FooterBottom = () => {
         <div className="flex items-center gap-2">
           <span className="text-stone-400 text-sm font-aalto_sans_pro">Criado por:</span>
           <img
-            src="/images/logo posicionesee sem p branco.png"
+            src="/images/logo-posicionesee.png"
             alt="Posicionesee"
             className="h-6 object-contain brightness-0 opacity-60"
           />
