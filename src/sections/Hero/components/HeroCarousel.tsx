@@ -6,7 +6,7 @@ export const HeroCarousel = () => {
           <div
             role="img"
             aria-label="Dr. Marcelo Ávila Nascimento"
-            className="bg-[url('/images/advogado.jpg')] bg-no-repeat bg-cover box-border caret-transparent min-h-full min-w-full bg-[position:-40%_20%] [transform:scaleX(-1)]"
+            className="bg-[url('/images/advogado.jpg')] bg-no-repeat bg-cover box-border caret-transparent min-h-full min-w-full bg-[position:-30%_20%] [transform:scaleX(-1)]"
           ></div>
         </div>
       </div>
