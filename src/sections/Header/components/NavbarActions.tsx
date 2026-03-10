@@ -1,7 +1,38 @@
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+
+const homeLinks = [
+  { href: "/#escritorio", label: "O Escritório" },
+  { to: "/registro-de-marcas", label: "Registro de Marcas" },
+  { to: "/direito-saude", label: "Direito à Saúde" },
+  { href: "/#contato", label: "Contato" },
+];
+
+const registroMarcasLinks = [
+  { href: "#por-que-registrar", label: "Por que Registrar" },
+  { href: "#como-funciona", label: "Como Funciona" },
+  { href: "#servicos", label: "Serviços" },
+  { href: "#advogado", label: "Sobre" },
+  { href: "#faq", label: "FAQ" },
+];
+
+const direitoSaudeLinks = [
+  { href: "#seus-direitos", label: "Seus Direitos" },
+  { href: "#como-funciona", label: "Como Funciona" },
+  { href: "#casos", label: "Casos" },
+  { href: "#advogado", label: "Sobre" },
+  { href: "#faq", label: "FAQ" },
+];
 
 export const NavbarActions = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+
+  const links = location.pathname === "/registro-de-marcas"
+    ? registroMarcasLinks
+    : location.pathname === "/direito-saude"
+    ? direitoSaudeLinks
+    : homeLinks;
 
   return (
     <div className="relative items-center box-border caret-transparent gap-x-2.5 flex flex-wrap justify-end min-h-[auto] gap-y-2 w-fit md:flex-nowrap md:justify-normal">
@@ -52,18 +83,17 @@ export const NavbarActions = () => {
       {menuOpen && (
         <div className="fixed left-0 right-0 top-[52px] bg-white shadow-lg border-t border-gray-100 z-[100] md:hidden">
           <nav className="flex flex-col px-5 py-4 gap-1">
-            <a href="#escritorio" onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
-              O Escritório
-            </a>
-            <a href="#propriedade-intelectual" onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
-              Propriedade Intelectual
-            </a>
-            <a href="#direito-saude" onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
-              Direito à Saúde
-            </a>
-            <a href="#contato" onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
-              Contato
-            </a>
+            {links.map((link, i) => (
+              "to" in link && link.to ? (
+                <Link key={i} to={link.to} onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
+                  {link.label}
+                </Link>
+              ) : (
+                <a key={i} href={link.href} onClick={() => setMenuOpen(false)} className="text-neutral-800 text-base font-medium font-aalto_sans_pro py-3 border-b border-gray-100">
+                  {link.label}
+                </a>
+              )
+            ))}
             <div className="flex flex-col gap-2 mt-3">
               <a
                 href="https://wa.me/5521972728787?text=Olá! Gostaria de registrar minha marca."

@@ -1198,7 +1198,7 @@ export const Hero = () => {
               </div>
               <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5">
                 <a
-                  href="#contato"
+                  href="/registro-de-marcas"
                   className="text-blue-700 text-lg font-medium bg-transparent box-border caret-transparent inline-block fill-blue-700 leading-[18px] text-center rounded-[3px] font-aalto_sans_pro"
                 >
                   <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 flex-row-reverse justify-center gap-y-[5px]">
@@ -1241,7 +1241,7 @@ export const Hero = () => {
               </div>
               <div className="relative box-border caret-transparent gap-x-5 max-w-full min-h-[auto] gap-y-5">
                 <a
-                  href="#contato"
+                  href="/direito-saude"
                   className="text-blue-700 text-lg font-medium bg-transparent box-border caret-transparent inline-block fill-blue-700 leading-[18px] text-center rounded-[3px] font-aalto_sans_pro"
                 >
                   <span className="box-border caret-transparent gap-x-[5px] flex fill-blue-700 flex-row-reverse justify-center gap-y-[5px]">
